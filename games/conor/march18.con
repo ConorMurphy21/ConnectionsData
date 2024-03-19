@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "SOUR",
+            "FIZZ",
+            "MANHATTAN",
+            "MULE"
+        ],
+        "connection": "CLASSIC COCKTAILS",
+        "level": 1
+    },
+    {
+        "words": [
+            "LIVE",
+            "SODA",
+            "WATER",
+            "TWITCH"
+        ],
+        "connection": "WORDS BEFORE \"STREAM\"",
+        "level": 2
+    },
+    {
+        "words": [
+            "COUNTRY",
+            "RYE",
+            "MEAT",
+            "LEMON"
+        ],
+        "connection": "WORDS BEFORE \"LOAF\"",
+        "level": 3
+    },
+    {
+        "words": [
+            "MELON",
+            "JUG",
+            "CAN",
+            "COCONUT"
+        ],
+        "connection": "BOOBS INFORMALLY (SINGULAR)",
+        "level": 4
+    }
+]

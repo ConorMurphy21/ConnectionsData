@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "DWAYNE",
+            "PEBBLE",
+            "STONE",
+            "BOULDER"
+        ],
+        "connection": "WORDS FOR ROCK",
+        "level": 1
+    },
+    {
+        "words": [
+            "BRUISE",
+            "SPRAIN",
+            "FRACTURE",
+            "TWIST"
+        ],
+        "connection": "INJURIES",
+        "level": 2
+    },
+    {
+        "words": [
+            "PADS",
+            "STICK",
+            "NET",
+            "ICE"
+        ],
+        "connection": "USED WHILST PLAYING ICED HOCKEY",
+        "level": 3
+    },
+    {
+        "words": [
+            "PLANE",
+            "BALL",
+            "CUT",
+            "TRAIL"
+        ],
+        "connection": "PAPER X",
+        "level": 4
+    }
+]
