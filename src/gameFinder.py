@@ -9,6 +9,9 @@ from pathlib import Path
 def find_unplayed(walk_path, user_config):
     for root, dirs, files in os.walk(walk_path):
         author = Path(root).name
+        # don't pick games the user made (they know the answer!)
+        if author == user_config.username:
+            continue
         for file in sorted(files, key=int):
             log_file = get_log_filename(user_config.username, author, int(file))
             if not log_file.exists():

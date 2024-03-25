@@ -1,11 +1,11 @@
 import json
 import os
 
-from src.fileUtils import get_game_filename
+from src.fileUtils import get_game_filename, get_author_folder
 
 
 def get_last_number(user_config) -> int:
-    pass
+    return len(os.listdir(get_author_folder(user_config.username))) - 1
 
 
 def generate_con_file(user_config):
