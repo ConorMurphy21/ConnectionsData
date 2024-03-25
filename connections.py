@@ -35,7 +35,7 @@ def main():
     config = get_user_config()
     if args.generate:
         new_file = generate_con_file(config)
-        save_to_git(args, new_file)
+        save_to_git(args, config, new_file)
     else:
         author, number, game_config = find_game(args, config)
         setup_logger(config, author, number)
