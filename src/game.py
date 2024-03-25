@@ -52,7 +52,7 @@ class Game:
         self.stdscr = stdscr
 
     def add_complete_row(self, state):
-        row = 4 - len(self.notfound) // 4
+        row = 3 - len(self.notfound) // 4
         self.stdscr.addstr(row * 2, self.width // 2 - len(state.connection) // 2, state.connection,
                            curses.color_pair(state.level))
         for col, word in enumerate(state.words):
@@ -185,22 +185,23 @@ class Game:
                 highlighted_fail = True
                 highlighted_fail_index = fail_index
 
-            # HANDLE SELECT / DESELECT
-            current += ch
-            filtered = [word for word in self.notfound if word.startswith(current)]
-            # query is no ambiguous (either 1 valid word or no valid words)
-            if len(filtered) <= 1:
-                addsleep = True
-                # clear current regardless of if entry is valid
-                current = ''
-                if len(filtered) == 1:
-                    chosen = filtered[0]
-                    if chosen in self.highlighted:
-                        self.add_highlighted_word(chosen)
-                        self.highlighted.remove(chosen)
-                    else:
-                        self.add_highlighted_word(chosen, curses.A_REVERSE)
-                        self.highlighted.add(chosen)
-
             else:
-                self.stdscr.addstr(10, 1, current)
+                # HANDLE SELECT / DESELECT
+                current += ch
+                filtered = [word for word in self.notfound if word.startswith(current)]
+                # query is no ambiguous (either 1 valid word or no valid words)
+                if len(filtered) <= 1:
+                    addsleep = True
+                    # clear current regardless of if entry is valid
+                    current = ''
+                    if len(filtered) == 1:
+                        chosen = filtered[0]
+                        if chosen in self.highlighted:
+                            self.add_highlighted_word(chosen)
+                            self.highlighted.remove(chosen)
+                        else:
+                            self.add_highlighted_word(chosen, curses.A_REVERSE)
+                            self.highlighted.add(chosen)
+
+                else:
+                    self.stdscr.addstr(10, 1, current)
