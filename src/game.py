@@ -169,6 +169,9 @@ class Game:
                 self.highlighted.clear()
                 self.add_notfound()
 
+            elif ch == ':':
+                return
+
             elif '0' <= ch <= '9':
                 # this works for < 10 guesses
                 # therefore the game is undefined behaviour after 11 guesses ig
