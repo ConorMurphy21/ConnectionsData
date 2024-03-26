@@ -1,0 +1,1 @@
+[{"words": ["CAVITY", "CROWN", "BRUSH", "XRAY"], "connection": "DENTIST", "level": 1}, {"words": ["GUITAR", "FLUTE", "TRUMPET", "MANDOLIN"], "connection": "MUSICAL INSTRUMENTS", "level": 2}, {"words": ["RICE", "TUNA", "SALMON", "AVOCADO"], "connection": "SUSHI INGREDIENTS", "level": 3}, {"words": ["CHIP", "BUGLE", "GOLDFISH", "SEAWEED"], "connection": "SALTY SNACCS", "level": 4}]
