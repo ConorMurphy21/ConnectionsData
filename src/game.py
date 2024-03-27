@@ -73,7 +73,8 @@ class Game:
 
     def add_highlight_set(self, words: Set[str], color_pair=curses.A_NORMAL):
         for word in words:
-            self.add_highlighted_word(word, color_pair)
+            if word in self.notfound:
+                self.add_highlighted_word(word, color_pair)
 
     def add_single_life(self, fail_index: int, curses_color=curses.A_NORMAL):
         fail_mark = 'o' if self.fails[fail_index].one_away else 'x'
