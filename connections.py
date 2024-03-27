@@ -18,6 +18,8 @@ def get_args():
     parser.add_argument('-g', '--generate', action='store_true', help="generate a connections game")
     parser.add_argument('-a', '--author', type=str, help="specify who's game you'd like to play")
     parser.add_argument('-n', '--number', type=str, help="pick a specific game to play (author required)")
+    parser.add_argument('-u', '--username', type=str, help="use this username instead of configured username \
+							    (will not overwrite config file)")
     parser.add_argument('-d', '--no-git', action='store_true', help="only use for development")
     return parser.parse_args()
 
@@ -33,6 +35,10 @@ def start_game(stdscr):
 def main():
     args = get_args()
     config = get_user_config()
+
+    if args.username:
+        config.username = args.username
+
     if args.generate:
         new_file = generate_con_file(config)
         save_to_git(args, config, new_file)
