@@ -3,6 +3,7 @@ import sys
 from curses import wrapper
 from typing import Optional
 
+from src.fileUtils import get_log_filename
 from src.game import Game
 from src.gameFinder import find_game
 from src.generator import generate_con_file
@@ -18,8 +19,8 @@ def get_args():
     parser.add_argument('-g', '--generate', action='store_true', help="generate a connections game")
     parser.add_argument('-a', '--author', type=str, help="specify who's game you'd like to play")
     parser.add_argument('-n', '--number', type=str, help="pick a specific game to play (author required)")
-    parser.add_argument('-u', '--username', type=str, help="use this username instead of configured username \
-							    (will not overwrite config file)")
+    parser.add_argument('-u', '--username', type=str, help="use this username instead of configured username "
+                                                           "(will not overwrite config file)")
     parser.add_argument('-d', '--no-git', action='store_true', help="only use for development")
     return parser.parse_args()
 
@@ -44,10 +45,13 @@ def main():
         save_to_git(args, config, new_file)
     else:
         author, number, game_config = find_game(args, config)
+        if game_config is None:
+            return
         setup_logger(config, author, number)
         global GAME
         GAME = Game(game_config)
         wrapper(start_game)
+        save_to_git(args, config, get_log_filename(config.username, author, number))
 
 
 if __name__ == '__main__':

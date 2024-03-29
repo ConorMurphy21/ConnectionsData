@@ -17,6 +17,8 @@ def find_unplayed(walk_path, user_config):
             if not log_file.exists():
                 return author, int(file), file_to_game_config(Path(root) / file)
 
+    print('no un-played games found. You can run "git pull upstream/master" to check again')
+
 
 def file_to_game_config(file):
     with open(file, 'r') as f:
@@ -26,6 +28,10 @@ def file_to_game_config(file):
 
 
 def find_game(args, user_config):
+    if args.author == user_config.username:
+        print('You cannot play your own games! You may use -u friend if you are sharing your puzzle with a friend!')
+        return
+
     walk_path = GAMES_FOLDER
     if args.author:
         if args.number:
