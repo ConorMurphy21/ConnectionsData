@@ -3,7 +3,7 @@ import sys
 from curses import wrapper
 from typing import Optional
 
-from src.fileUtils import get_log_filename
+from src.fileUtils import get_logfile_dir
 from src.game import Game
 from src.gameFinder import find_game
 from src.generator import generate_con_file
@@ -51,7 +51,7 @@ def main():
         global GAME
         GAME = Game(game_config)
         wrapper(start_game)
-        save_to_git(args, config, get_log_filename(config.username, author, number))
+        save_to_git(args, config, get_logfile_dir(config.username, author, number) / '*')
 
 
 if __name__ == '__main__':

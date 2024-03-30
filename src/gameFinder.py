@@ -2,7 +2,7 @@ import json
 import os
 from types import SimpleNamespace
 
-from src.fileUtils import get_game_filename, GAMES_FOLDER, get_author_folder, get_log_filename
+from src.fileUtils import get_game_filename, GAMES_FOLDER, get_author_folder, get_logfile_dir
 from pathlib import Path
 
 
@@ -13,11 +13,12 @@ def find_unplayed(walk_path, user_config):
         if author == user_config.username:
             continue
         for file in sorted(files, key=int):
-            log_file = get_log_filename(user_config.username, author, int(file))
-            if not log_file.exists():
+            log_dir = get_logfile_dir(user_config.username, author, int(file))
+            if not log_dir.exists():
                 return author, int(file), file_to_game_config(Path(root) / file)
 
     print('no un-played games found. You can run "git pull upstream/master" to check again')
+    return None, None, None
 
 
 def file_to_game_config(file):
@@ -30,7 +31,7 @@ def file_to_game_config(file):
 def find_game(args, user_config):
     if args.author == user_config.username:
         print('You cannot play your own games! You may use -u friend if you are sharing your puzzle with a friend!')
-        return
+        return None, None, None
 
     walk_path = GAMES_FOLDER
     if args.author:

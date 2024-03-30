@@ -1,8 +1,49 @@
 import logging
+import logging.config
 import os
 from datetime import datetime
 
-from src.fileUtils import get_log_filename
+from src.fileUtils import get_logfile_dir
+
+log_config = {
+    'version': 1,
+    'disable_existing_loggers': True,
+    'formatters': {
+        'simple': {
+            'format': '%(uptime)s %(message)s',
+        },
+        'json': {
+            '()': 'src.jsonLogFormatter.JsonFormatter',
+            'fmt_keys': {
+                'uptime': 'uptime',
+                'message': 'message',
+            }
+        }
+    },
+    'handlers': {
+        'human': {
+            'class': 'logging.FileHandler',
+            'level': 'DEBUG',
+            'formatter': 'simple',
+            'filename': 'WILL BE OVERWRITTEN',
+        },
+        'machine': {
+            'class': 'logging.FileHandler',
+            'level': 'DEBUG',
+            'formatter': 'json',
+            'filename': 'WILL BE OVERWRITTEN',
+        }
+    },
+    'loggers': {
+        'root': {
+            'level': 'DEBUG',
+            'handlers': [
+                'human',
+                'machine'
+            ]
+        }
+    }
+}
 
 
 def setup_logger(user_config, author: str, number: int):
@@ -16,6 +57,10 @@ def setup_logger(user_config, author: str, number: int):
 
     logging.setLogRecordFactory(record_factory)
 
-    filename = get_log_filename(user_config.username, author, number)
-    os.makedirs(filename.parent, exist_ok=True)
-    logging.basicConfig(filename=filename, level=logging.INFO, format='%(uptime)s %(message)s')
+    log_dir = get_logfile_dir(user_config.username, author, number)
+    machine_file = log_dir / 'machine.jsonl'
+    human_file = log_dir / 'human.log'
+    log_config['handlers']['machine']['filename'] = str(machine_file)
+    log_config['handlers']['human']['filename'] = str(human_file)
+    os.makedirs(log_dir, exist_ok=True)
+    logging.config.dictConfig(log_config)
