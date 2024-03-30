@@ -50,7 +50,7 @@ def main():
             return
         setup_logger(config, author, number)
         global GAME
-        GAME = Game(game_config, get_machine_logfile(config.username, author, number))
+        GAME = Game(author, number, config, game_config)
         wrapper(start_game)
         save_to_git(args, config, get_logfile_dir(config.username, author, number) / '*')
 

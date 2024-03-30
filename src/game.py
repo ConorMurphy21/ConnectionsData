@@ -5,12 +5,17 @@ import random
 import curses
 import time
 from typing import Set
-from pathlib import Path
 
 from src.fileUtils import get_machine_logfile
 
 ONE_AWAY_HIGHLIGHT = 0
 FAIL_HIGHLIGHT = 0
+
+TITLE_OFFSET = 0
+BOARD_OFFSET = TITLE_OFFSET + 1
+BOARD_HEIGHT = 8
+LIVES_OFFSET = BOARD_OFFSET + BOARD_HEIGHT + 1
+CURSOR_OFFSET = LIVES_OFFSET + 1
 
 
 @dataclasses.dataclass
@@ -20,7 +25,7 @@ class Fail:
 
 
 class Game:
-    def __init__(self, game_config, logfile: Path):
+    def __init__(self, author: str, number: int, user_config, game_config):
         # set stdscr to None, will be initialized later
         self.stdscr = None
 
@@ -37,7 +42,9 @@ class Game:
 
         self.highlighted = set()
 
-        self.logfile = logfile
+        self.author = author
+        self.number = number
+        self.logfile = get_machine_logfile(user_config.username, author, number)
 
     def nlives(self):
         return 4 - len(self.fails)
@@ -46,7 +53,7 @@ class Game:
         stdscr.clear()
         stdscr.refresh()
         height, width = stdscr.getmaxyx()
-        if height < 10 or width < self.width:
+        if height <= CURSOR_OFFSET or width <= self.width:
             stdscr.addstr(0, 0, 'Window size too small, please resize window to try again!')
             stdscr.addstr(1, 0, 'Hit any key to exit.')
             stdscr.getch()
@@ -78,21 +85,26 @@ class Game:
                 elif 'one_away' in json_line:
                     self.fails.append(Fail(json_line['one_away'], set(json.loads(json_line['guessed']))))
 
+    def add_title(self):
+        self.stdscr.addstr(TITLE_OFFSET, 0, f'{self.author} #{self.number}'.rjust(self.width))
+
     def add_complete_row(self, state):
-        row = 3 - len(self.notfound) // 4
-        self.stdscr.addstr(row * 2, self.width // 2 - len(state.connection) // 2, state.connection,
+        row = (3 - len(self.notfound) // 4) * 2 + BOARD_OFFSET
+        self.stdscr.addstr(row, self.width // 2 - len(state.connection) // 2, state.connection,
                            curses.color_pair(state.level))
         for col, word in enumerate(state.words):
-            self.stdscr.addstr(row * 2 + 1, col * self.word_width,
+            self.stdscr.addstr(row + 1, col * self.word_width,
                                word.rjust(self.word_width), curses.color_pair(state.level))
 
     def add_highlighted_word(self, chosen: str, color_pair=curses.A_NORMAL):
         ind = self.notfound.index(chosen)
         row, col = divmod(ind, 4)
         row += (4 - len(self.notfound) // 4)
+        row *= 2
+        row += BOARD_OFFSET + 1
         pad_len = self.word_width - len(chosen)
-        self.stdscr.addstr(row * 2 + 1, col * self.word_width, ' ' * pad_len)
-        self.stdscr.addstr(row * 2 + 1, col * self.word_width + pad_len, chosen, color_pair)
+        self.stdscr.addstr(row, col * self.word_width, ' ' * pad_len)
+        self.stdscr.addstr(row, col * self.word_width + pad_len, chosen, color_pair)
 
     def add_notfound(self):
         for chosen in self.notfound:
@@ -106,16 +118,16 @@ class Game:
     def add_single_life(self, fail_index: int, curses_color=curses.A_NORMAL):
         fail_mark = 'o' if self.fails[fail_index].one_away else 'x'
         position = (3 - fail_index) * 3 + (self.width // 2) - 4
-        self.stdscr.addstr(9, position, fail_mark, curses_color)
+        self.stdscr.addstr(LIVES_OFFSET, position, fail_mark, curses_color)
 
     def add_lives(self):
         nlives = self.nlives()
         for i in range(nlives):
-            self.stdscr.addstr(9, i * 3 + (self.width // 2) - 4, '*')
+            self.stdscr.addstr(LIVES_OFFSET, i * 3 + (self.width // 2) - 4, '*')
 
         for i in range(nlives, 4):
             fail_mark = 'o' if self.fails[nlives - i - 1].one_away else 'x'
-            self.stdscr.addstr(9, i * 3 + (self.width // 2) - 4, fail_mark)
+            self.stdscr.addstr(LIVES_OFFSET, i * 3 + (self.width // 2) - 4, fail_mark)
 
     def check_guess(self):
         for row in self.game_config:
@@ -132,11 +144,12 @@ class Game:
     def play_game(self):
         self.init_from_logfile()
         # set initial display
+        self.add_title()
         self.add_notfound()
         self.add_lives()
 
         # set cursor location
-        self.stdscr.addstr(10, 0, '>')
+        self.stdscr.addstr(CURSOR_OFFSET, 0, '>')
 
         # main game loop
         current = ''
@@ -148,7 +161,7 @@ class Game:
 
             # INIT CODE THAT NEEDS TO BE DONE BEFORE EVERY LOOP
             # AND BEFORE FIRST LISTEN
-            self.stdscr.move(10, 1 + len(current))
+            self.stdscr.move(CURSOR_OFFSET, 1 + len(current))
             self.stdscr.clrtoeol()
             self.stdscr.refresh()
             if addsleep:
