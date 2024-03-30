@@ -22,10 +22,32 @@ def get_args():
     parser.add_argument('-u', '--username', type=str, help="use this username instead of configured username "
                                                            "(will not overwrite config file)")
     parser.add_argument('-d', '--no-git', action='store_true', help="only use for development")
+    parser.add_argument('-t', '--tutorial', action='store_true', help="show a tutorial on how to play")
     return parser.parse_args()
 
 
 GAME: Optional[Game] = None
+
+
+def print_tutorial():
+    print('''
+*************** OVERVIEW ***************
+This is a much improved Command Line Interface for the New York Times connections game!!!  
+There are 4 groups of 4 words, and the objective is to find each of the 4 groups!
+
+*********** IN GAME CONTROLS ***********
+[a-z]: Select or Unselect word  
+?: Guess currently selected words  
+-: Clear currently selected words  
+!: Shuffle all the words around  
+[1-9]: Show previous guess #n  
+:q: Exit game  
+>: Exit with Skip log
+
+***************** LIVES ****************
+If your guess was one away it will display o where your life used to be,
+if you are more than one away it will display x where your life used to be.
+''')
 
 
 def start_game(stdscr):
@@ -40,8 +62,9 @@ def main():
 
     if args.username:
         config.username = args.username
-
-    if args.generate:
+    if args.tutorial:
+        print_tutorial()
+    elif args.generate:
         new_file = generate_con_file(config)
         save_to_git(args, config, new_file)
     else:
