@@ -29,8 +29,9 @@ GAME: Optional[Game] = None
 
 
 def start_game(stdscr):
-    GAME.init_curses(stdscr)
-    GAME.play_game()
+    success = GAME.init_curses(stdscr)
+    if success:
+        GAME.play_game()
 
 
 def main():

@@ -45,6 +45,12 @@ class Game:
     def init_curses(self, stdscr):
         stdscr.clear()
         stdscr.refresh()
+        height, width = stdscr.getmaxyx()
+        if height < 10 or width < self.width:
+            stdscr.addstr(0, 0, 'Window size too small, please resize window to try again!')
+            stdscr.addstr(1, 0, 'Hit any key to exit.')
+            stdscr.getch()
+            return False
         curses.init_pair(1, curses.COLOR_BLACK, curses.COLOR_YELLOW)
         curses.init_pair(2, curses.COLOR_BLACK, curses.COLOR_GREEN)
         curses.init_pair(3, curses.COLOR_BLACK, curses.COLOR_CYAN)
@@ -55,6 +61,7 @@ class Game:
         FAIL_HIGHLIGHT = curses.color_pair(5)
         ONE_AWAY_HIGHLIGHT = curses.color_pair(6)
         self.stdscr = stdscr
+        return True
 
     def init_from_logfile(self):
         if not self.logfile.exists():
