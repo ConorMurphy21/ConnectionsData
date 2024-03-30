@@ -16,7 +16,6 @@ log_config = {
             '()': 'src.jsonLogFormatter.JsonFormatter',
             'fmt_keys': {
                 'uptime': 'uptime',
-                'message': 'message',
             }
         }
     },

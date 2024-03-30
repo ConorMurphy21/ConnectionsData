@@ -1,10 +1,13 @@
 import dataclasses
+import json
 import logging
 import random
 import curses
 import time
 from typing import Set
+from pathlib import Path
 
+from src.fileUtils import get_machine_logfile
 
 ONE_AWAY_HIGHLIGHT = 0
 FAIL_HIGHLIGHT = 0
@@ -17,7 +20,7 @@ class Fail:
 
 
 class Game:
-    def __init__(self, game_config):
+    def __init__(self, game_config, logfile: Path):
         # set stdscr to None, will be initialized later
         self.stdscr = None
 
@@ -33,6 +36,8 @@ class Game:
         self.width = self.word_width * 4
 
         self.highlighted = set()
+
+        self.logfile = logfile
 
     def nlives(self):
         return 4 - len(self.fails)
@@ -50,6 +55,21 @@ class Game:
         FAIL_HIGHLIGHT = curses.color_pair(5)
         ONE_AWAY_HIGHLIGHT = curses.color_pair(6)
         self.stdscr = stdscr
+
+    def init_from_logfile(self):
+        if not self.logfile.exists():
+            return
+        with open(self.logfile, 'r') as f:
+            lines = f.readlines()
+            for line in lines:
+                json_line = json.loads(line)
+                if 'level' in json_line:
+                    row = self.game_config[json_line['level'] - 1]
+                    for word in row.words:
+                        self.notfound.remove(word)
+                    self.add_complete_row(row)
+                elif 'one_away' in json_line:
+                    self.fails.append(Fail(json_line['one_away'], set(json.loads(json_line['guessed']))))
 
     def add_complete_row(self, state):
         row = 3 - len(self.notfound) // 4
@@ -91,7 +111,6 @@ class Game:
             self.stdscr.addstr(9, i * 3 + (self.width // 2) - 4, fail_mark)
 
     def check_guess(self):
-        logging.info(str(self.highlighted))
         for row in self.game_config:
             diff = set(row.words) - self.highlighted
             if len(diff) == 0:
@@ -104,6 +123,7 @@ class Game:
         self.fails.append(Fail(False, self.highlighted.copy()))
 
     def play_game(self):
+        self.init_from_logfile()
         # set initial display
         self.add_notfound()
         self.add_lives()
@@ -156,6 +176,7 @@ class Game:
                 else:
                     self.add_lives()
 
+                self._log_guess(correct_row)
                 # clear and redraw everything without highlights
                 self.highlighted.clear()
                 self.add_notfound()
@@ -206,3 +227,17 @@ class Game:
 
                 else:
                     self.stdscr.addstr(10, 1, current)
+        # log final stats for game end
+        self._log_end()
+
+    def _log_guess(self, row):
+        if row is None:
+            fail = self.fails[-1]
+            extra = {'guessed': json.dumps(list(fail.guessed)), 'one_away': fail.one_away}
+            logging.info(f'Incorrectly Guessed {fail.guessed}', extra=extra)
+        else:
+            extra = {'level': row.level}
+            logging.info(f'Found {row.connection}: {row.words}', extra=extra)
+
+    def _log_end(self):
+        pass

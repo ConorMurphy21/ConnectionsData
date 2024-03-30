@@ -15,3 +15,7 @@ def get_author_folder(author: str) -> Path:
 
 def get_logfile_dir(user: str, author: str, number: int) -> Path:
     return RESULTS_FOLDER / author / str(number) / user
+
+
+def get_machine_logfile(user: str, author: str, number: int) -> Path:
+    return RESULTS_FOLDER / author / str(number) / user / 'machine.jsonl'
