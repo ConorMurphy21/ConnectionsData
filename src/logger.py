@@ -22,7 +22,7 @@ log_config = {
     'handlers': {
         'human': {
             'class': 'logging.FileHandler',
-            'level': 'DEBUG',
+            'level': 'INFO',
             'formatter': 'simple',
             'filename': 'WILL BE OVERWRITTEN',
         },

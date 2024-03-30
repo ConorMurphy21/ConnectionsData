@@ -246,9 +246,7 @@ class Game:
                             self.highlighted.add(chosen)
 
                 else:
-                    self.stdscr.addstr(10, 1, current)
-        # log final stats for game end
-        self._log_end()
+                    self.stdscr.addstr(CURSOR_OFFSET, 1, current)
 
     def _log_guess(self, row):
         if row is None:
@@ -259,5 +257,9 @@ class Game:
             extra = {'level': row.level}
             logging.info(f'Found {row.connection}: {row.words}', extra=extra)
 
-    def _log_end(self):
+        # add log message for game won
+        if len(self.notfound) == 0:
+            pass
+
+    def _log_skipped(self):
         pass
