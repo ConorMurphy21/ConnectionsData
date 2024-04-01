@@ -16,17 +16,17 @@
             "WATER",
             "TWITCH"
         ],
-        "connection": "WORDS BEFORE \"STREAM\"",
+        "connection": "_____ \"STREAM\"",
         "level": 2
     },
     {
         "words": [
             "COUNTRY",
-            "RYE",
+            "FRENCH",
             "MEAT",
             "LEMON"
         ],
-        "connection": "WORDS BEFORE \"LOAF\"",
+        "connection": "_____ \"LOAF\"",
         "level": 3
     },
     {
