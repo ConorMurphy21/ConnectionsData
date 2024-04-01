@@ -13,8 +13,11 @@ def get_game_status(logfile: Path):
         return 'untouched'
     with open(logfile, 'r') as f:
         # get to last line of file
+        line = None
         for line in f:
             pass
+        if not line:
+            return 'incomplete'
         json_line = json.loads(line)
         if 'skip' in json_line:
             return 'skip'
