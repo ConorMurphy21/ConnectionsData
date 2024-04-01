@@ -76,4 +76,4 @@ def find_game(args, user_config):
                     return None, None, None
             return args.author, args.number, file_to_game_config(get_game_filename(args.author, args.number))
         walk_path = get_author_folder(args.author)
-    return find_unplayed(walk_path, user_config)
+    return find_unplayed(walk_path, user_config, tried_pull=args.no_git)
