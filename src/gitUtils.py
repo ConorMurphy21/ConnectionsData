@@ -2,7 +2,7 @@ import subprocess
 
 
 def pull_master():
-    subprocess.call(['git', 'pull', '--no-edit'])
+    subprocess.call(['git', 'pull', '--rebase'])
 
 
 def save_to_git(args, user_config, file):
@@ -14,5 +14,5 @@ def save_to_git(args, user_config, file):
     else:
         subprocess.call(['git', 'commit', '-m', f'{user_config.username} played a game'])
 
-    subprocess.call(['git', 'pull', '--no-edit'])
+    subprocess.call(['git', 'pull', '--rebase'])
     subprocess.call(['git', 'push'])
