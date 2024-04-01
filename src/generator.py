@@ -27,6 +27,6 @@ def generate_con_file(user_config):
     filename = get_game_filename(user_config.username, last_number + 1)
     filename.parent.mkdir(exist_ok=True)
     with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(game_config, f)
+        json.dump(game_config, f, indent=4)
 
     return filename
