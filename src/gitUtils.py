@@ -2,7 +2,7 @@ import subprocess
 
 
 def pull_master():
-    subprocess.call(['git', 'pull', 'upstream/master'])
+    subprocess.call(['git', 'pull'])
 
 
 def save_to_git(args, user_config, file):
