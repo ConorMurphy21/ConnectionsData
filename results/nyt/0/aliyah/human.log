@@ -1,0 +1,6 @@
+02m01s Incorrectly Guessed {'HEN', 'YAK', 'DOE', 'COW'}
+07m01s Found STARTS OF PLANET NAMES: ['EAR', 'MAR', 'MER', 'SAT']
+09m18s Found PALINDROMES: ['BIB', 'EYE', 'GAG', 'POP']
+11m31s Found CHAT, INFORMALLY: ['GAB', 'JAW', 'YAK', 'YAP']
+11m56s Found FEMALE ANIMALS: ['COW', 'DOE', 'EWE', 'HEN']
+11m56s All Connections Found in 5 guesses!

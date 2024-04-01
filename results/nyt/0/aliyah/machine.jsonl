@@ -1,0 +1,6 @@
+{"uptime": "02m01s", "message": "Incorrectly Guessed {'HEN', 'YAK', 'DOE', 'COW'}", "timestamp": "2024-04-01T08:02:48.937865+00:00", "guessed": "[\"HEN\", \"YAK\", \"DOE\", \"COW\"]", "one_away": true}
+{"uptime": "07m01s", "message": "Found STARTS OF PLANET NAMES: ['EAR', 'MAR', 'MER', 'SAT']", "timestamp": "2024-04-01T08:07:48.807554+00:00", "level": 4}
+{"uptime": "09m18s", "message": "Found PALINDROMES: ['BIB', 'EYE', 'GAG', 'POP']", "timestamp": "2024-04-01T08:10:05.882752+00:00", "level": 3}
+{"uptime": "11m31s", "message": "Found CHAT, INFORMALLY: ['GAB', 'JAW', 'YAK', 'YAP']", "timestamp": "2024-04-01T08:12:19.269171+00:00", "level": 1}
+{"uptime": "11m56s", "message": "Found FEMALE ANIMALS: ['COW', 'DOE', 'EWE', 'HEN']", "timestamp": "2024-04-01T08:12:44.002592+00:00", "level": 2}
+{"uptime": "11m56s", "message": "All Connections Found in 5 guesses!", "timestamp": "2024-04-01T08:12:44.002974+00:00", "complete": true}
