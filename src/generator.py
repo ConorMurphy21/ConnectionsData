@@ -5,7 +5,11 @@ from src.fileUtils import get_game_filename, get_author_folder
 
 
 def get_last_number(user_config) -> int:
-    return len(os.listdir(get_author_folder(user_config.username))) - 1
+    folder = get_author_folder(user_config.username)
+    if folder.exists():
+        return len(os.listdir(folder)) - 1
+    else:
+        return -1
 
 
 def generate_con_file(user_config):
