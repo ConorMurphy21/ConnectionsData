@@ -24,6 +24,10 @@ class Fail:
     guessed: Set[str]
 
 
+def _log_skipped():
+    logging.debug('skipped', extra={'skip': True})
+
+
 class Game:
     def __init__(self, author: str, number: int, user_config, game_config):
         # set stdscr to None, will be initialized later
@@ -214,6 +218,10 @@ class Game:
             elif ch == ':':
                 return
 
+            elif ch == '>':
+                _log_skipped()
+                return
+
             elif '0' <= ch <= '9':
                 # this works for < 10 guesses
                 # therefore the game is undefined behaviour after 11 guesses ig
@@ -259,7 +267,4 @@ class Game:
 
         # add log message for game won
         if len(self.notfound) == 0:
-            pass
-
-    def _log_skipped(self):
-        pass
+            logging.info(f'All Connections Found in {len(self.fails) + 4} guesses!', extra={'complete': True})

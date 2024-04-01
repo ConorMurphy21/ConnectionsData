@@ -5,20 +5,46 @@ from types import SimpleNamespace
 from src.fileUtils import get_game_filename, GAMES_FOLDER, get_author_folder, get_machine_logfile
 from pathlib import Path
 
+from src.gitUtils import pull_master
 
-def find_unplayed(walk_path, user_config):
+
+def get_game_status(logfile: Path):
+    if not logfile.exists():
+        return 'untouched'
+    with open(logfile, 'r') as f:
+        # get to last line of file
+        for line in f:
+            pass
+        json_line = json.loads(line)
+        if 'skip' in json_line:
+            return 'skip'
+        if 'complete' in json_line:
+            return 'complete'
+
+    return 'incomplete'
+
+
+def find_unplayed(walk_path, user_config, tried_pull=False):
+    first_untouched = None, None, None
     for root, dirs, files in os.walk(walk_path):
         author = Path(root).name
         # don't pick games the user made (they know the answer!)
         if author == user_config.username:
             continue
         for file in sorted(files, key=int):
-            log_file = get_machine_logfile(user_config.username, author, int(file))
-            if not log_file.exists():
+            logfile = get_machine_logfile(user_config.username, author, int(file))
+            status = get_game_status(logfile)
+            if status == 'incomplete':
                 return author, int(file), file_to_game_config(Path(root) / file)
+            if first_untouched[0] is None and status == 'untouched':
+                first_untouched = author, int(file), file_to_game_config(Path(root) / file)
 
-    print('no un-played games found. You can run "git pull upstream/master" to check again')
-    return None, None, None
+    if first_untouched[0] is None and not tried_pull:
+        pull_master()
+        find_unplayed(walk_path, user_config, tried_pull=True)
+    else:
+        print('No new games were found, try to convince your friends to make more!')
+    return first_untouched
 
 
 def file_to_game_config(file):
@@ -36,8 +62,9 @@ def find_game(args, user_config):
     walk_path = GAMES_FOLDER
     if args.author:
         if args.number:
-            log_file = get_machine_logfile(user_config.username, args.author, args.number)
-            if log_file.exists():
+            logfile = get_machine_logfile(user_config.username, args.author, args.number)
+            status = get_game_status(logfile)
+            if status == 'complete':
                 print('You have already played this game!')
                 print('If you would like to share this puzzle with a friend, please exit and use the username flag ('
                       '-u)!')

@@ -1,6 +1,10 @@
 import subprocess
 
 
+def pull_master():
+    subprocess.call(['git', 'pull', 'upstream/master'])
+
+
 def save_to_git(args, user_config, file):
     if args.no_git:
         return
