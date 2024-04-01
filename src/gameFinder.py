@@ -44,7 +44,7 @@ def find_unplayed(walk_path, user_config, tried_pull=False):
 
     if first_untouched[0] is None and not tried_pull:
         pull_master()
-        find_unplayed(walk_path, user_config, tried_pull=True)
+        return find_unplayed(walk_path, user_config, tried_pull=True)
     elif first_untouched[0] is None:
         print('No new games were found, try to convince your friends to make more!')
     return first_untouched
