@@ -1,0 +1,2 @@
+00m13s {'XRAY', 'CAVITY', 'AVOCADO', 'BUGLE'}
+00m32s {'XRAY', 'CAVITY', 'BRUSH', 'CROWN'}

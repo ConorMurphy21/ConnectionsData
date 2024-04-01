@@ -1,0 +1,7 @@
+01m33s {'SMACK', 'CLINK', 'CHIRP', 'TICK'}
+02m41s {'WRAP', 'BOX', 'CARD', 'DANCE'}
+04m55s {'PURSE', 'BITE', 'PUCKER', 'SMACK'}
+00m12s {'PURSE', 'BITE', 'SMACK', 'PUCKER'}
+00m50s {'CARD', 'WRAP', 'BOX', 'BAG'}
+01m36s {'CLINK', 'CHIRP', 'GOBBLE', 'TICK'}
+02m42s {'SPACE', 'PANTS', 'UP', 'DANCE'}
