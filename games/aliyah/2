@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "STACK",
+            "PILE",
+            "HEAP",
+            "TOWER"
+        ],
+        "connection": "THINGS ON TOP OF EACH OTHER",
+        "level": 1
+    },
+    {
+        "words": [
+            "BACON",
+            "LETTUCE",
+            "TOMATO",
+            "BREAD"
+        ],
+        "connection": "BLT INGREDIENTS (HALAL TURKEY BACON THO)",
+        "level": 2
+    },
+    {
+        "words": [
+            "PICKLE",
+            "SOCCER",
+            "CANNON",
+            "BUTTER"
+        ],
+        "connection": "XXX BALL",
+        "level": 3
+    },
+    {
+        "words": [
+            "MAYONNAISE",
+            "JUNIPER",
+            "DECK",
+            "FEBREZE"
+        ],
+        "connection": "STARTS W MONTH ABBREVIATION",
+        "level": 4
+    }
+]
