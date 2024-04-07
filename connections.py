@@ -1,9 +1,8 @@
 import argparse
-import sys
 from curses import wrapper
 from typing import Optional
 
-from src.fileUtils import get_logfile_dir, get_machine_logfile
+from src.fileUtils import get_logfile_dir
 from src.game import Game
 from src.gameFinder import find_game
 from src.generator import generate_con_file
