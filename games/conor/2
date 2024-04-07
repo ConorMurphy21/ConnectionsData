@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "SPOKE",
+            "CAP",
+            "TIRE",
+            "BARREL"
+        ],
+        "connection": "WHEEL PARTS",
+        "level": 1
+    },
+    {
+        "words": [
+            "MALLET",
+            "STICK",
+            "BRUSH",
+            "HAND"
+        ],
+        "connection": "DRUM BEATERS",
+        "level": 2
+    },
+    {
+        "words": [
+            "WAKE",
+            "WATER",
+            "CHEESE",
+            "LONG"
+        ],
+        "connection": "_____ BOARD",
+        "level": 3
+    },
+    {
+        "words": [
+            "CHIP",
+            "TOMATO",
+            "BEEP",
+            "KNOCK"
+        ],
+        "connection": "WORDS THAT ARE OFTEN DOUBLED",
+        "level": 4
+    }
+]
