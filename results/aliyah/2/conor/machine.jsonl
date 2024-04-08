@@ -1,0 +1,4 @@
+{"uptime": "01m39s", "message": "Found THINGS ON TOP OF EACH OTHER: ['STACK', 'PILE', 'HEAP', 'TOWER']", "timestamp": "2024-04-08T05:04:28.961893+00:00", "level": 1}
+{"uptime": "02m18s", "message": "Incorrectly Guessed {'BACON', 'TOMATO', 'LETTUCE', 'MAYONNAISE'}", "timestamp": "2024-04-08T05:05:08.033836+00:00", "guessed": "[\"BACON\", \"TOMATO\", \"LETTUCE\", \"MAYONNAISE\"]", "one_away": true}
+{"uptime": "02m41s", "message": "Found BLT INGREDIENTS (HALAL TURKEY BACON THO): ['BACON', 'LETTUCE', 'TOMATO', 'BREAD']", "timestamp": "2024-04-08T05:05:31.497399+00:00", "level": 2}
+{"uptime": "05m23s", "message": "Incorrectly Guessed {'PICKLE', 'JUNIPER', 'BUTTER', 'MAYONNAISE'}", "timestamp": "2024-04-08T05:08:13.156187+00:00", "guessed": "[\"PICKLE\", \"JUNIPER\", \"BUTTER\", \"MAYONNAISE\"]", "one_away": false}
