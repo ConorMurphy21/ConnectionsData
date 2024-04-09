@@ -3,8 +3,13 @@
 This is a much improved Command Line Interface for the New York Times connections game!!!  
 There are 4 groups of 4 words, and the objective is to find each of the 4 groups!
 
-
 ![img.png](basic_demo.png)
+
+## Cheating
+Cheating will be taken very seriously!!! This program includes a kernel level anti-cheat software
+that will monitor any network traffic, all connected displays, and all connected microphones and cameras.
+Does this seem dangerous for such a simple game? No! Cheaters is the enemy, anything to stop them! All games will
+also be monitored for statistical outliers. **Anyone suspected of cheating will be banned and sent straight to jail!**
 
 ## Installation
 
