@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "NUMBER",
+            "SHARP",
+            "POUND",
+            "HASH"
+        ],
+        "connection": "WHAT # CAN MEAN",
+        "level": 1
+    },
+    {
+        "words": [
+            "TINGLE",
+            "AURA",
+            "VIBE",
+            "HUNCH"
+        ],
+        "connection": "SIXTH SENSE",
+        "level": 2
+    },
+    {
+        "words": [
+            "MASH",
+            "ENERGY",
+            "TRUCK",
+            "COSTUME"
+        ],
+        "connection": "MONSTER _____",
+        "level": 3
+    },
+    {
+        "words": [
+            "SOAK",
+            "SPINE",
+            "RASH",
+            "HELM"
+        ],
+        "connection": "LETTER + TREE",
+        "level": 4
+    }
+]
