@@ -1,0 +1,7 @@
+{"uptime": "00m31s", "message": "Incorrectly Guessed {'ENERGY', 'VIBE', 'AURA', 'TINGLE'}", "timestamp": "2024-04-09T06:32:13.979674+00:00", "guessed": "[\"ENERGY\", \"VIBE\", \"AURA\", \"TINGLE\"]", "one_away": true}
+{"uptime": "01m47s", "message": "Found WHAT # CAN MEAN: ['NUMBER', 'SHARP', 'POUND', 'HASH']", "timestamp": "2024-04-09T06:33:29.601642+00:00", "level": 1}
+{"uptime": "13m29s", "message": "Incorrectly Guessed {'HELM', 'SOAK', 'MASH', 'SPINE'}", "timestamp": "2024-04-09T06:45:11.723320+00:00", "guessed": "[\"HELM\", \"SOAK\", \"MASH\", \"SPINE\"]", "one_away": true}
+{"uptime": "13m38s", "message": "Found LETTER + TREE: ['SOAK', 'SPINE', 'RASH', 'HELM']", "timestamp": "2024-04-09T06:45:21.240473+00:00", "level": 4}
+{"uptime": "16m38s", "message": "Found MONSTER _____: ['MASH', 'ENERGY', 'TRUCK', 'COSTUME']", "timestamp": "2024-04-09T06:48:21.413339+00:00", "level": 3}
+{"uptime": "16m50s", "message": "Found SIXTH SENSE: ['TINGLE', 'AURA', 'VIBE', 'HUNCH']", "timestamp": "2024-04-09T06:48:33.301299+00:00", "level": 2}
+{"uptime": "16m50s", "message": "All Connections Found in 6 guesses!", "timestamp": "2024-04-09T06:48:33.301766+00:00", "complete": true}
