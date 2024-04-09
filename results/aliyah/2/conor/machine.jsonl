@@ -2,3 +2,7 @@
 {"uptime": "02m18s", "message": "Incorrectly Guessed {'BACON', 'TOMATO', 'LETTUCE', 'MAYONNAISE'}", "timestamp": "2024-04-08T05:05:08.033836+00:00", "guessed": "[\"BACON\", \"TOMATO\", \"LETTUCE\", \"MAYONNAISE\"]", "one_away": true}
 {"uptime": "02m41s", "message": "Found BLT INGREDIENTS (HALAL TURKEY BACON THO): ['BACON', 'LETTUCE', 'TOMATO', 'BREAD']", "timestamp": "2024-04-08T05:05:31.497399+00:00", "level": 2}
 {"uptime": "05m23s", "message": "Incorrectly Guessed {'PICKLE', 'JUNIPER', 'BUTTER', 'MAYONNAISE'}", "timestamp": "2024-04-08T05:08:13.156187+00:00", "guessed": "[\"PICKLE\", \"JUNIPER\", \"BUTTER\", \"MAYONNAISE\"]", "one_away": false}
+{"uptime": "06m45s", "message": "Incorrectly Guessed {'PICKLE', 'SOCCER', 'JUNIPER', 'CANNON'}", "timestamp": "2024-04-08T05:09:35.151323+00:00", "guessed": "[\"PICKLE\", \"SOCCER\", \"JUNIPER\", \"CANNON\"]", "one_away": true}
+{"uptime": "06m57s", "message": "Found XXX BALL: ['PICKLE', 'SOCCER', 'CANNON', 'BUTTER']", "timestamp": "2024-04-08T05:09:47.807497+00:00", "level": 3}
+{"uptime": "09m39s", "message": "Found STARTS W MONTH ABBREVIATION: ['MAYONNAISE', 'JUNIPER', 'DECK', 'FEBREZE']", "timestamp": "2024-04-08T05:12:29.540565+00:00", "level": 4}
+{"uptime": "09m39s", "message": "All Connections Found in 7 guesses!", "timestamp": "2024-04-08T05:12:29.540565+00:00", "complete": true}
