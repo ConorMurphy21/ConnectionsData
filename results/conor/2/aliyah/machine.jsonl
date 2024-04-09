@@ -1,0 +1,12 @@
+{"uptime": "07m32s", "message": "Found _____ BOARD: ['WAKE', 'WATER', 'CHEESE', 'LONG']", "timestamp": "2024-04-09T05:15:00.362943+00:00", "level": 3}
+{"uptime": "08m13s", "message": "Incorrectly Guessed {'TIRE', 'SPOKE', 'CAP', 'STICK'}", "timestamp": "2024-04-09T05:15:41.985370+00:00", "guessed": "[\"TIRE\", \"SPOKE\", \"CAP\", \"STICK\"]", "one_away": true}
+{"uptime": "14m27s", "message": "Incorrectly Guessed {'KNOCK', 'STICK', 'CHIP', 'BARREL'}", "timestamp": "2024-04-09T05:21:55.696009+00:00", "guessed": "[\"KNOCK\", \"STICK\", \"CHIP\", \"BARREL\"]", "one_away": false}
+{"uptime": "30m45s", "message": "Incorrectly Guessed {'BRUSH', 'KNOCK', 'BARREL', 'HAND'}", "timestamp": "2024-04-09T05:38:13.845382+00:00", "guessed": "[\"BRUSH\", \"KNOCK\", \"BARREL\", \"HAND\"]", "one_away": false}
+{"uptime": "34m32s", "message": "Found WHEEL PARTS: ['SPOKE', 'CAP', 'TIRE', 'BARREL']", "timestamp": "2024-04-09T05:42:01.096867+00:00", "level": 1}
+{"uptime": "36m42s", "message": "Incorrectly Guessed {'BRUSH', 'KNOCK', 'HAND', 'STICK'}", "timestamp": "2024-04-09T05:46:26.562952+00:00", "guessed": "[\"BRUSH\", \"KNOCK\", \"HAND\", \"STICK\"]", "one_away": true}
+{"uptime": "37m28s", "message": "Incorrectly Guessed {'BRUSH', 'KNOCK', 'MALLET', 'STICK'}", "timestamp": "2024-04-09T05:47:12.792521+00:00", "guessed": "[\"BRUSH\", \"KNOCK\", \"MALLET\", \"STICK\"]", "one_away": true}
+{"uptime": "41m53s", "message": "Incorrectly Guessed {'BRUSH', 'KNOCK', 'CHIP', 'STICK'}", "timestamp": "2024-04-09T05:51:37.517390+00:00", "guessed": "[\"BRUSH\", \"KNOCK\", \"CHIP\", \"STICK\"]", "one_away": false}
+{"uptime": "46m57s", "message": "Incorrectly Guessed {'KNOCK', 'HAND', 'MALLET', 'STICK'}", "timestamp": "2024-04-09T05:56:41.158347+00:00", "guessed": "[\"KNOCK\", \"HAND\", \"MALLET\", \"STICK\"]", "one_away": true}
+{"uptime": "15m53s", "message": "Found DRUM BEATERS: ['MALLET', 'STICK', 'BRUSH', 'HAND']", "timestamp": "2024-04-09T06:25:37.345772+00:00", "level": 2}
+{"uptime": "21m28s", "message": "Found WORDS THAT ARE OFTEN DOUBLED: ['CHIP', 'TOMATO', 'BEEP', 'KNOCK']", "timestamp": "2024-04-09T06:31:12.142983+00:00", "level": 4}
+{"uptime": "21m28s", "message": "All Connections Found in 11 guesses!", "timestamp": "2024-04-09T06:31:12.143669+00:00", "complete": true}

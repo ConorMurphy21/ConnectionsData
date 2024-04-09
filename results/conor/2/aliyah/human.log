@@ -1,0 +1,12 @@
+07m32s Found _____ BOARD: ['WAKE', 'WATER', 'CHEESE', 'LONG']
+08m13s Incorrectly Guessed {'TIRE', 'SPOKE', 'CAP', 'STICK'}
+14m27s Incorrectly Guessed {'KNOCK', 'STICK', 'CHIP', 'BARREL'}
+30m45s Incorrectly Guessed {'BRUSH', 'KNOCK', 'BARREL', 'HAND'}
+34m32s Found WHEEL PARTS: ['SPOKE', 'CAP', 'TIRE', 'BARREL']
+36m42s Incorrectly Guessed {'BRUSH', 'KNOCK', 'HAND', 'STICK'}
+37m28s Incorrectly Guessed {'BRUSH', 'KNOCK', 'MALLET', 'STICK'}
+41m53s Incorrectly Guessed {'BRUSH', 'KNOCK', 'CHIP', 'STICK'}
+46m57s Incorrectly Guessed {'KNOCK', 'HAND', 'MALLET', 'STICK'}
+15m53s Found DRUM BEATERS: ['MALLET', 'STICK', 'BRUSH', 'HAND']
+21m28s Found WORDS THAT ARE OFTEN DOUBLED: ['CHIP', 'TOMATO', 'BEEP', 'KNOCK']
+21m28s All Connections Found in 11 guesses!
