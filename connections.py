@@ -37,7 +37,7 @@ There are 4 groups of 4 words, and the objective is to find each of the 4 groups
 *********** IN GAME CONTROLS ***********
 [a-z]: Select or Unselect word  
 ?: Guess currently selected words  
--: Clear currently selected words  
+\\: Clear currently selected words  
 !: Shuffle all the words around  
 [1-9]: Show previous guess #n  
 :q: Exit game  

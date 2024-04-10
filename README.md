@@ -60,7 +60,7 @@ this doesn't provide any better debugging info it just prevents the script from 
 ### In Game Controls
 `[a-z]`: Select or Unselect word  
 `?`: Guess currently selected words  
-`-`: Clear currently selected words  
+`\`: Clear currently selected words  
 `!`: Shuffle all the words around  
 `[1-9]`: Show previous guess `#n`  
 `:q`: Exit game  
