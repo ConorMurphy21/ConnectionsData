@@ -131,7 +131,10 @@ class Game:
 
         for i in range(nlives, 4):
             fail_mark = 'o' if self.fails[nlives - i - 1].one_away else 'x'
-            self.stdscr.addstr(LIVES_OFFSET, i * 3 + (self.width // 2) - 4, fail_mark)
+            col = ((i * 3 + (self.width // 2) - 4) + self.width) % self.width
+            if col < 0:
+                continue
+            self.stdscr.addstr(LIVES_OFFSET, col, fail_mark)
 
     def check_guess(self):
         for row in self.game_config:
@@ -225,7 +228,7 @@ class Game:
             elif '0' <= ch <= '9':
                 # this works for < 10 guesses
                 # therefore the game is undefined behaviour after 11 guesses ig
-                fail_index = int(ch) - 1
+                fail_index = (int(ch) + 9) % 10
                 if fail_index >= len(self.fails):
                     continue
                 fail = self.fails[fail_index]
