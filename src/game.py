@@ -121,7 +121,7 @@ class Game:
 
     def add_single_life(self, fail_index: int, curses_color=curses.A_NORMAL):
         fail_mark = 'o' if self.fails[fail_index].one_away else 'x'
-        position = (3 - fail_index) * 3 + (self.width // 2) - 4
+        position = ((3 - fail_index) * 3 + (self.width // 2) - 4 + self.width) % self.width
         self.stdscr.addstr(LIVES_OFFSET, position, fail_mark, curses_color)
 
     def add_lives(self):
@@ -197,6 +197,12 @@ class Game:
                 if len(self.highlighted) != 4:
                     continue
 
+                # be generous and don't count guesses that have already been guessed
+                if any(fail.guessed == self.highlighted for fail in self.fails):
+                    self.highlighted.clear()
+                    self.add_notfound()
+                    continue
+
                 correct_row = self.check_guess()
                 if correct_row is not None:
                     self.add_complete_row(correct_row)
@@ -225,10 +231,16 @@ class Game:
                 _log_skipped()
                 return
 
-            elif '0' <= ch <= '9':
+            elif '0' <= ch <= '9' or ch == '-' or ch == '=' or ch == '+':
                 # this works for < 10 guesses
                 # therefore the game is undefined behaviour after 11 guesses ig
-                fail_index = (int(ch) + 9) % 10
+                if ch == '-':
+                    fail_index = (highlighted_fail_index + 1) % len(self.fails)
+                elif ch == '=' or ch == '+':
+                    fail_index = (highlighted_fail_index - 1 + len(self.fails)) % len(self.fails)
+                else:
+                    fail_index = (int(ch) + 9) % 10
+
                 if fail_index >= len(self.fails):
                     continue
                 fail = self.fails[fail_index]

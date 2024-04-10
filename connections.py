@@ -40,6 +40,8 @@ There are 4 groups of 4 words, and the objective is to find each of the 4 groups
 \\: Clear currently selected words  
 !: Shuffle all the words around  
 [1-9]: Show previous guess #n  
+-: Show previous previous guess
+=: Show next previous guess
 :q: Exit game  
 >: Exit with Skip log
 

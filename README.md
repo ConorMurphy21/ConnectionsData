@@ -63,6 +63,8 @@ this doesn't provide any better debugging info it just prevents the script from 
 `\`: Clear currently selected words  
 `!`: Shuffle all the words around  
 `[1-9]`: Show previous guess `#n`  
+`-`: Show previous previous guess
+`=`: Show next previous guess
 `:q`: Exit game  
 `>`: Exit with Skip log
 
