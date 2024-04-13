@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "WHAT",
+            "PARDON",
+            "AGAIN",
+            "SORRY"
+        ],
+        "connection": "DIDN'T CATCH THAT",
+        "level": 1
+    },
+    {
+        "words": [
+            "WHY",
+            "BEE",
+            "SEA",
+            "YOU"
+        ],
+        "connection": "LETTER HOMOPHONES",
+        "level": 2
+    },
+    {
+        "words": [
+            "WHO",
+            "BAND",
+            "POLICE",
+            "CARS"
+        ],
+        "connection": "FAMOUS ROCKBANDS FOLLOWING \"THE\"",
+        "level": 3
+    },
+    {
+        "words": [
+            "WHEN",
+            "BEAGLE",
+            "PETIT",
+            "BALLOON"
+        ],
+        "connection": "ENDS WITH BIRDS",
+        "level": 4
+    }
+]
