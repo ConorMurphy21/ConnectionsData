@@ -1,0 +1,9 @@
+{"uptime": "00m14s", "message": "Incorrectly Guessed {'WHAT', 'WHO', 'WHY', 'WHEN'}", "timestamp": "2024-04-13T04:16:38.378200+00:00", "guessed": "[\"WHAT\", \"WHO\", \"WHY\", \"WHEN\"]", "one_away": false}
+{"uptime": "01m11s", "message": "Incorrectly Guessed {'BEAGLE', 'BAND', 'BEE', 'BALLOON'}", "timestamp": "2024-04-13T04:17:35.083531+00:00", "guessed": "[\"BEAGLE\", \"BAND\", \"BEE\", \"BALLOON\"]", "one_away": false}
+{"uptime": "01m36s", "message": "Found DIDN'T CATCH THAT: ['WHAT', 'PARDON', 'AGAIN', 'SORRY']", "timestamp": "2024-04-13T04:18:00.568415+00:00", "level": 1}
+{"uptime": "10m15s", "message": "Incorrectly Guessed {'POLICE', 'YOU', 'BEE', 'BEAGLE'}", "timestamp": "2024-04-13T04:26:39.280597+00:00", "guessed": "[\"POLICE\", \"YOU\", \"BEE\", \"BEAGLE\"]", "one_away": false}
+{"uptime": "18m15s", "message": "Found LETTER HOMOPHONES: ['WHY', 'BEE', 'SEA', 'YOU']", "timestamp": "2024-04-13T04:34:39.167575+00:00", "level": 2}
+{"uptime": "57m26s", "message": "Incorrectly Guessed {'BALLOON', 'BEAGLE', 'POLICE', 'WHEN'}", "timestamp": "2024-04-13T17:13:50.957387+00:00", "guessed": "[\"BALLOON\", \"BEAGLE\", \"POLICE\", \"WHEN\"]", "one_away": true}
+{"uptime": "59m35s", "message": "Found ENDS WITH BIRDS: ['WHEN', 'BEAGLE', 'PETIT', 'BALLOON']", "timestamp": "2024-04-13T17:15:59.770710+00:00", "level": 4}
+{"uptime": "59m39s", "message": "Found FAMOUS ROCKBANDS FOLLOWING \"THE\": ['WHO', 'BAND', 'POLICE', 'CARS']", "timestamp": "2024-04-13T17:16:03.535447+00:00", "level": 3}
+{"uptime": "59m39s", "message": "All Connections Found in 8 guesses!", "timestamp": "2024-04-13T17:16:03.535587+00:00", "complete": true}
