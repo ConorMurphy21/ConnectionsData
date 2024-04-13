@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "CRIMP",
+            "SQUASH",
+            "VALLEY",
+            "SINK"
+        ],
+        "connection": "ORIGAMI FOLDS",
+        "level": 1
+    },
+    {
+        "words": [
+            "BOW",
+            "NECK",
+            "PEG",
+            "TIP"
+        ],
+        "connection": "VIOLIN PARTS",
+        "level": 2
+    },
+    {
+        "words": [
+            "BABE",
+            "OMG",
+            "AMERICA",
+            "TUBA"
+        ],
+        "connection": "WORDS ENDING WITH AN ALKALINE EARTH METAL SYMBOL",
+        "level": 3
+    },
+    {
+        "words": [
+            "SWANG",
+            "TEA",
+            "PLUG",
+            "FLOW"
+        ],
+        "connection": "WORDS ABOUT EATING (BUT BACKWARDS)",
+        "level": 4
+    }
+]
