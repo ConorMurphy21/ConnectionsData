@@ -1,0 +1,12 @@
+{"uptime": "05m28s", "message": "Incorrectly Guessed {'FLOW', 'VALLEY', 'BOW', 'TEA'}", "timestamp": "2024-04-14T05:06:34.558346+00:00", "guessed": "[\"FLOW\", \"VALLEY\", \"BOW\", \"TEA\"]", "one_away": false}
+{"uptime": "15m36s", "message": "Incorrectly Guessed {'CRIMP', 'PLUG', 'BOW', 'TIP'}", "timestamp": "2024-04-14T05:16:42.924513+00:00", "guessed": "[\"CRIMP\", \"PLUG\", \"BOW\", \"TIP\"]", "one_away": false}
+{"uptime": "16m11s", "message": "Incorrectly Guessed {'FLOW', 'PLUG', 'SINK', 'TIP'}", "timestamp": "2024-04-14T05:17:17.484218+00:00", "guessed": "[\"FLOW\", \"PLUG\", \"SINK\", \"TIP\"]", "one_away": false}
+{"uptime": "23m23s", "message": "Found VIOLIN PARTS: ['BOW', 'NECK', 'PEG', 'TIP']", "timestamp": "2024-04-14T05:24:30.081101+00:00", "level": 2}
+{"uptime": "27m23s", "message": "Incorrectly Guessed {'BABE', 'TEA', 'OMG', 'TUBA'}", "timestamp": "2024-04-14T05:28:30.198814+00:00", "guessed": "[\"BABE\", \"TEA\", \"OMG\", \"TUBA\"]", "one_away": true}
+{"uptime": "27m49s", "message": "Incorrectly Guessed {'BABE', 'TEA', 'OMG', 'SWANG'}", "timestamp": "2024-04-14T05:28:55.737287+00:00", "guessed": "[\"BABE\", \"TEA\", \"OMG\", \"SWANG\"]", "one_away": false}
+{"uptime": "31m30s", "message": "Found ORIGAMI FOLDS: ['CRIMP', 'SQUASH', 'VALLEY', 'SINK']", "timestamp": "2024-04-14T05:32:37.079034+00:00", "level": 1}
+{"uptime": "34m03s", "message": "Incorrectly Guessed {'BABE', 'AMERICA', 'OMG', 'SWANG'}", "timestamp": "2024-04-14T05:35:09.504909+00:00", "guessed": "[\"BABE\", \"AMERICA\", \"OMG\", \"SWANG\"]", "one_away": true}
+{"uptime": "35m35s", "message": "Incorrectly Guessed {'BABE', 'TUBA', 'OMG', 'SWANG'}", "timestamp": "2024-04-14T05:36:42.160977+00:00", "guessed": "[\"BABE\", \"TUBA\", \"OMG\", \"SWANG\"]", "one_away": true}
+{"uptime": "41m24s", "message": "Found WORDS ABOUT EATING (BUT BACKWARDS): ['SWANG', 'TEA', 'PLUG', 'FLOW']", "timestamp": "2024-04-14T05:42:30.511571+00:00", "level": 4}
+{"uptime": "42m28s", "message": "Found WORDS ENDING WITH AN ALKALINE EARTH METAL SYMBOL: ['BABE', 'OMG', 'AMERICA', 'TUBA']", "timestamp": "2024-04-14T05:42:59.084350+00:00", "level": 3}
+{"uptime": "42m28s", "message": "All Connections Found in 11 guesses!", "timestamp": "2024-04-14T05:42:59.087892+00:00", "complete": true}
