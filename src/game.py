@@ -94,7 +94,7 @@ class Game:
 
     def add_complete_row(self, state):
         row = (3 - len(self.notfound) // 4) * 2 + BOARD_OFFSET
-        self.stdscr.addstr(row, self.width // 2 - len(state.connection) // 2, state.connection,
+        self.stdscr.addstr(row, max(0, self.width // 2 - len(state.connection) // 2), state.connection,
                            curses.color_pair(state.level))
         for col, word in enumerate(state.words):
             self.stdscr.addstr(row + 1, col * self.word_width,

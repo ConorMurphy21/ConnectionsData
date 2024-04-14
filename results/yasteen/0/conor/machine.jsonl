@@ -6,3 +6,6 @@
 {"uptime": "25m20s", "message": "Incorrectly Guessed {'FLOW', 'SINK', 'SQUASH', 'PLUG'}", "timestamp": "2024-04-14T05:24:54.704716+00:00", "guessed": "[\"FLOW\", \"SINK\", \"SQUASH\", \"PLUG\"]", "one_away": false}
 {"uptime": "29m37s", "message": "Incorrectly Guessed {'OMG', 'TEA', 'BABE', 'FLOW'}", "timestamp": "2024-04-14T05:29:11.490868+00:00", "guessed": "[\"OMG\", \"TEA\", \"BABE\", \"FLOW\"]", "one_away": false}
 {"uptime": "32m14s", "message": "Found ORIGAMI FOLDS: ['CRIMP', 'SQUASH', 'VALLEY', 'SINK']", "timestamp": "2024-04-14T05:31:48.913279+00:00", "level": 1}
+{"uptime": "33m34s", "message": "Found WORDS ENDING WITH AN ALKALINE EARTH METAL SYMBOL: ['BABE', 'OMG', 'AMERICA', 'TUBA']", "timestamp": "2024-04-14T05:37:54.402663+00:00", "level": 3}
+{"uptime": "33m43s", "message": "Found WORDS ABOUT EATING (BUT BACKWARDS): ['SWANG', 'TEA', 'PLUG', 'FLOW']", "timestamp": "2024-04-14T05:38:03.593556+00:00", "level": 4}
+{"uptime": "33m43s", "message": "All Connections Found in 10 guesses!", "timestamp": "2024-04-14T05:38:03.593556+00:00", "complete": true}
