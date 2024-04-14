@@ -1,0 +1,8 @@
+{"uptime": "06m00s", "message": "Incorrectly Guessed {'BOW', 'SINK', 'FLOW', 'PLUG'}", "timestamp": "2024-04-14T05:05:34.371376+00:00", "guessed": "[\"BOW\", \"SINK\", \"FLOW\", \"PLUG\"]", "one_away": false}
+{"uptime": "08m47s", "message": "Incorrectly Guessed {'SQUASH', 'PLUG', 'PEG', 'CRIMP'}", "timestamp": "2024-04-14T05:08:21.342897+00:00", "guessed": "[\"SQUASH\", \"PLUG\", \"PEG\", \"CRIMP\"]", "one_away": false}
+{"uptime": "14m12s", "message": "Incorrectly Guessed {'OMG', 'BABE', 'PEG', 'PLUG'}", "timestamp": "2024-04-14T05:13:46.298879+00:00", "guessed": "[\"OMG\", \"BABE\", \"PEG\", \"PLUG\"]", "one_away": false}
+{"uptime": "16m28s", "message": "Incorrectly Guessed {'BOW', 'NECK', 'PEG', 'PLUG'}", "timestamp": "2024-04-14T05:16:02.634763+00:00", "guessed": "[\"BOW\", \"NECK\", \"PEG\", \"PLUG\"]", "one_away": true}
+{"uptime": "17m59s", "message": "Found VIOLIN PARTS: ['BOW', 'NECK', 'PEG', 'TIP']", "timestamp": "2024-04-14T05:17:33.948006+00:00", "level": 2}
+{"uptime": "25m20s", "message": "Incorrectly Guessed {'FLOW', 'SINK', 'SQUASH', 'PLUG'}", "timestamp": "2024-04-14T05:24:54.704716+00:00", "guessed": "[\"FLOW\", \"SINK\", \"SQUASH\", \"PLUG\"]", "one_away": false}
+{"uptime": "29m37s", "message": "Incorrectly Guessed {'OMG', 'TEA', 'BABE', 'FLOW'}", "timestamp": "2024-04-14T05:29:11.490868+00:00", "guessed": "[\"OMG\", \"TEA\", \"BABE\", \"FLOW\"]", "one_away": false}
+{"uptime": "32m14s", "message": "Found ORIGAMI FOLDS: ['CRIMP', 'SQUASH', 'VALLEY', 'SINK']", "timestamp": "2024-04-14T05:31:48.913279+00:00", "level": 1}
