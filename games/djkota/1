@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "PITCH",
+            "HARMONY",
+            "KEY",
+            "SONG"
+        ],
+        "connection": "THINGS IN MUSIC ",
+        "level": 1
+    },
+    {
+        "words": [
+            "DANGER",
+            "SOUNDTRACK",
+            "LOOT",
+            "ENEMIES "
+        ],
+        "connection": "VIDEO GAMES",
+        "level": 2
+    },
+    {
+        "words": [
+            "MISTRESS",
+            "COINS",
+            "ERA",
+            "LAND"
+        ],
+        "connection": "THINGS KINGS HAVE ",
+        "level": 3
+    },
+    {
+        "words": [
+            "MADAM",
+            "LEVEL",
+            "NOON",
+            "GIG"
+        ],
+        "connection": "START END WITH SAME LETTER",
+        "level": 4
+    }
+]
