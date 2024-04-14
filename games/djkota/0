@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "IVORY",
+            "SNOW",
+            "CREAM",
+            "TEETH"
+        ],
+        "connection": "THINGS THAT ARE WHITE",
+        "level": 1
+    },
+    {
+        "words": [
+            "BOIL",
+            "REDUCE",
+            "CUT",
+            "SEAR"
+        ],
+        "connection": "COOKING TERMS",
+        "level": 2
+    },
+    {
+        "words": [
+            "PIN",
+            "CHECK",
+            "CAPTURE",
+            "MOVE"
+        ],
+        "connection": "CHESS TERMS",
+        "level": 3
+    },
+    {
+        "words": [
+            "CADENCE",
+            "HEARTBEAT",
+            "MARCHING",
+            "FLOW"
+        ],
+        "connection": "THINGS WITH RYTHYM",
+        "level": 4
+    }
+]
