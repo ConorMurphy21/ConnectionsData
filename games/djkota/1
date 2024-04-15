@@ -6,7 +6,7 @@
             "KEY",
             "SONG"
         ],
-        "connection": "THINGS IN MUSIC ",
+        "connection": "THINGS IN MUSIC",
         "level": 1
     },
     {
@@ -14,7 +14,7 @@
             "DANGER",
             "SOUNDTRACK",
             "LOOT",
-            "ENEMIES "
+            "ENEMIES"
         ],
         "connection": "VIDEO GAMES",
         "level": 2
@@ -26,7 +26,7 @@
             "ERA",
             "LAND"
         ],
-        "connection": "THINGS KINGS HAVE ",
+        "connection": "THINGS KINGS HAVE",
         "level": 3
     },
     {
