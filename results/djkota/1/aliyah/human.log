@@ -1,0 +1,10 @@
+02m01s Found START END WITH SAME LETTER: ['MADAM', 'LEVEL', 'NOON', 'GIG']
+03m24s Found THINGS IN MUSIC : ['PITCH', 'HARMONY', 'KEY', 'SONG']
+06m00s Incorrectly Guessed {'DANGER', 'ENEMIES ', 'SOUNDTRACK', 'MISTRESS'}
+09m44s Incorrectly Guessed {'COINS', 'LAND', 'MISTRESS', 'LOOT'}
+20m14s Incorrectly Guessed {'LOOT', 'LAND', 'ENEMIES ', 'COINS'}
+25m18s Incorrectly Guessed {'DANGER', 'LAND', 'SOUNDTRACK', 'COINS'}
+26m11s Incorrectly Guessed {'DANGER', 'ENEMIES ', 'SOUNDTRACK', 'COINS'}
+26m18s Found VIDEO GAMES: ['DANGER', 'SOUNDTRACK', 'LOOT', 'ENEMIES ']
+26m33s Found THINGS KINGS HAVE : ['MISTRESS', 'COINS', 'ERA', 'LAND']
+26m33s All Connections Found in 9 guesses!

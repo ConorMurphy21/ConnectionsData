@@ -1,0 +1,10 @@
+{"uptime": "02m01s", "message": "Found START END WITH SAME LETTER: ['MADAM', 'LEVEL', 'NOON', 'GIG']", "timestamp": "2024-04-14T06:50:45.322557+00:00", "level": 4}
+{"uptime": "03m24s", "message": "Found THINGS IN MUSIC : ['PITCH', 'HARMONY', 'KEY', 'SONG']", "timestamp": "2024-04-14T06:52:08.697842+00:00", "level": 1}
+{"uptime": "06m00s", "message": "Incorrectly Guessed {'DANGER', 'ENEMIES ', 'SOUNDTRACK', 'MISTRESS'}", "timestamp": "2024-04-14T06:54:44.779557+00:00", "guessed": "[\"DANGER\", \"ENEMIES \", \"SOUNDTRACK\", \"MISTRESS\"]", "one_away": true}
+{"uptime": "09m44s", "message": "Incorrectly Guessed {'COINS', 'LAND', 'MISTRESS', 'LOOT'}", "timestamp": "2024-04-14T06:58:28.192083+00:00", "guessed": "[\"COINS\", \"LAND\", \"MISTRESS\", \"LOOT\"]", "one_away": true}
+{"uptime": "20m14s", "message": "Incorrectly Guessed {'LOOT', 'LAND', 'ENEMIES ', 'COINS'}", "timestamp": "2024-04-14T07:08:58.280223+00:00", "guessed": "[\"LOOT\", \"LAND\", \"ENEMIES \", \"COINS\"]", "one_away": false}
+{"uptime": "25m18s", "message": "Incorrectly Guessed {'DANGER', 'LAND', 'SOUNDTRACK', 'COINS'}", "timestamp": "2024-04-14T07:14:02.591437+00:00", "guessed": "[\"DANGER\", \"LAND\", \"SOUNDTRACK\", \"COINS\"]", "one_away": false}
+{"uptime": "26m11s", "message": "Incorrectly Guessed {'DANGER', 'ENEMIES ', 'SOUNDTRACK', 'COINS'}", "timestamp": "2024-04-14T07:14:55.383779+00:00", "guessed": "[\"DANGER\", \"ENEMIES \", \"SOUNDTRACK\", \"COINS\"]", "one_away": true}
+{"uptime": "26m18s", "message": "Found VIDEO GAMES: ['DANGER', 'SOUNDTRACK', 'LOOT', 'ENEMIES ']", "timestamp": "2024-04-14T07:15:02.739372+00:00", "level": 2}
+{"uptime": "26m33s", "message": "Found THINGS KINGS HAVE : ['MISTRESS', 'COINS', 'ERA', 'LAND']", "timestamp": "2024-04-14T07:15:18.016092+00:00", "level": 3}
+{"uptime": "26m33s", "message": "All Connections Found in 9 guesses!", "timestamp": "2024-04-14T07:15:18.016336+00:00", "complete": true}
