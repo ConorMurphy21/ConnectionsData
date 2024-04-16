@@ -9,7 +9,7 @@ from src.fileUtils import get_logfile_dir
 
 log_config = {
     'version': 1,
-    'disable_existing_loggers': True,
+    'disable_existing_loggers': False,
     'formatters': {
         'simple': {
             'format': '%(uptime)s %(message)s',

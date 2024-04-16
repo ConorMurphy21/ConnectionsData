@@ -5,8 +5,9 @@ import random
 import curses
 import time
 from typing import Set
-
 from src.fileUtils import get_machine_logfile
+
+logger = logging.getLogger(__name__)
 
 ONE_AWAY_HIGHLIGHT = 0
 FAIL_HIGHLIGHT = 0
@@ -25,7 +26,7 @@ class Fail:
 
 
 def _log_skipped():
-    logging.debug('skipped', extra={'skip': True})
+    logger.debug('skipped', extra={'skip': True})
 
 
 class Game:
@@ -275,11 +276,11 @@ class Game:
         if row is None:
             fail = self.fails[-1]
             extra = {'guessed': json.dumps(list(fail.guessed)), 'one_away': fail.one_away}
-            logging.info(f'Incorrectly Guessed {fail.guessed}', extra=extra)
+            logger.info(f'Incorrectly Guessed {fail.guessed}', extra=extra)
         else:
             extra = {'level': row.level}
-            logging.info(f'Found {row.connection}: {row.words}', extra=extra)
+            logger.info(f'Found {row.connection}: {row.words}', extra=extra)
 
         # add log message for game won
         if len(self.notfound) == 0:
-            logging.info(f'All Connections Found in {len(self.fails) + 4} guesses!', extra={'complete': True})
+            logger.info(f'All Connections Found in {len(self.fails) + 4} guesses!', extra={'complete': True})

@@ -19,8 +19,8 @@ def generate_con_file(user_config):
         while True:
             row = {'words': [], 'connection': '', 'level': i + 1}
             for j in range(4):
-                row['words'].append(input(f'{diff[i]} - #{j}: ').upper())
-            row['connection'] = input(f'{diff[i]} - connection: ').upper()
+                row['words'].append(input(f'{diff[i]} - #{j}: ').strip().upper())
+            row['connection'] = input(f'{diff[i]} - connection: ').strip().upper()
             print(row)
             confirm = input('Is this correct (y / n): ').lower()
             if confirm in {'y', 'yes', 'ye'}:
