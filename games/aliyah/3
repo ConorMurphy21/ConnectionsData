@@ -7,7 +7,7 @@
             "BREEZE"
         ],
         "connection": "KARMA IS A ____ (T. SWIZZLE)",
-        "level": 1
+        "level": 4
     },
     {
         "words": [
@@ -17,7 +17,7 @@
             "SLEEPING"
         ],
         "connection": "TYPE OF BAG",
-        "level": 2
+        "level": 1
     },
     {
         "words": [
@@ -37,6 +37,6 @@
             "COMMANDO"
         ],
         "connection": "HAS KEYBOARD SYMBOL IN WORD",
-        "level": 4
+        "level": 2
     }
 ]
