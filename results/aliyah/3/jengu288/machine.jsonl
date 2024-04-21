@@ -1,0 +1,6 @@
+{"uptime": "01m12s", "message": "Found TYPE OF BAG: ['PAPER', 'PLASTIC', 'BODY', 'SLEEPING']", "timestamp": "2024-04-21T03:42:25.249082+00:00", "level": 1}
+{"uptime": "02m23s", "message": "Incorrectly Guessed {'PERIODIC', 'MUTATION', 'TURN', 'DELTA'}", "timestamp": "2024-04-21T03:43:36.218283+00:00", "guessed": "[\"PERIODIC\", \"MUTATION\", \"TURN\", \"DELTA\"]", "one_away": true}
+{"uptime": "12m03s", "message": "Found HAS KEYBOARD SYMBOL IN WORD: ['COLONOSCOPY', 'PERIODIC', 'FUNCTIONALITY', 'COMMANDO']", "timestamp": "2024-04-21T03:53:16.753094+00:00", "level": 2}
+{"uptime": "13m49s", "message": "Found CHANGE: ['DELTA', 'COIN', 'MUTATION', 'TURN']", "timestamp": "2024-04-21T03:55:02.778517+00:00", "level": 3}
+{"uptime": "15m01s", "message": "Found KARMA IS A ____ (T. SWIZZLE): ['BOYFRIEND', 'CAT', 'THOUGHT', 'BREEZE']", "timestamp": "2024-04-21T03:56:14.474600+00:00", "level": 4}
+{"uptime": "15m01s", "message": "All Connections Found in 5 guesses!", "timestamp": "2024-04-21T03:56:14.474920+00:00", "complete": true}
