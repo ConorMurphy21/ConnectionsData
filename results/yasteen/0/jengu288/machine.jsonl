@@ -1,0 +1,9 @@
+{"uptime": "06m11s", "message": "Incorrectly Guessed {'PEG', 'NECK', 'CRIMP', 'BOW'}", "timestamp": "2024-04-21T03:16:19.314440+00:00", "guessed": "[\"PEG\", \"NECK\", \"CRIMP\", \"BOW\"]", "one_away": true}
+{"uptime": "07m10s", "message": "Incorrectly Guessed {'TIP', 'NECK', 'CRIMP', 'BOW'}", "timestamp": "2024-04-21T03:17:19.165856+00:00", "guessed": "[\"TIP\", \"NECK\", \"CRIMP\", \"BOW\"]", "one_away": true}
+{"uptime": "08m39s", "message": "Found VIOLIN PARTS: ['BOW', 'NECK', 'PEG', 'TIP']", "timestamp": "2024-04-21T03:18:47.632242+00:00", "level": 2}
+{"uptime": "24m44s", "message": "Incorrectly Guessed {'SINK', 'CRIMP', 'PLUG', 'VALLEY'}", "timestamp": "2024-04-21T03:34:52.408290+00:00", "guessed": "[\"SINK\", \"CRIMP\", \"PLUG\", \"VALLEY\"]", "one_away": true}
+{"uptime": "25m34s", "message": "Found ORIGAMI FOLDS: ['CRIMP', 'SQUASH', 'VALLEY', 'SINK']", "timestamp": "2024-04-21T03:35:43.116022+00:00", "level": 1}
+{"uptime": "28m18s", "message": "Incorrectly Guessed {'SWANG', 'PUS', 'WRY', 'MAZE'}", "timestamp": "2024-04-21T03:38:26.723371+00:00", "guessed": "[\"SWANG\", \"PUS\", \"WRY\", \"MAZE\"]", "one_away": false}
+{"uptime": "28m44s", "message": "Found HOMOPHONE OF A THING TO PLANT: ['TIME', 'MAZE', 'WRY', 'PEE']", "timestamp": "2024-04-21T03:38:52.667360+00:00", "level": 3}
+{"uptime": "29m58s", "message": "Found WORDS ABOUT EATING (BUT BACKWARDS): ['SWANG', 'PUS', 'PLUG', 'FLOW']", "timestamp": "2024-04-21T03:40:07.233581+00:00", "level": 4}
+{"uptime": "29m58s", "message": "All Connections Found in 8 guesses!", "timestamp": "2024-04-21T03:40:07.233990+00:00", "complete": true}
