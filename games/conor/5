@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "BUTTERFLY",
+            "ARMY",
+            "BREAD",
+            "BUTTER"
+        ],
+        "connection": "KINDS OF KNIVES",
+        "level": 1
+    },
+    {
+        "words": [
+            "AWOL",
+            "SWAT",
+            "SCUBA",
+            "WHO"
+        ],
+        "connection": "FAMOUS ACRONYMS",
+        "level": 2
+    },
+    {
+        "words": [
+            "TRAITOR",
+            "BRUTAL",
+            "VAMPIRE",
+            "HAPPIER"
+        ],
+        "connection": "OLIVIA RODRIGO TITLES",
+        "level": 3
+    },
+    {
+        "words": [
+            "GHOST",
+            "FIRST",
+            "BEGIN",
+            "ALMOST"
+        ],
+        "connection": "ALPHABETICALLY SORTED WORDS",
+        "level": 4
+    }
+]
