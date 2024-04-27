@@ -7,7 +7,7 @@
             "BUTTER"
         ],
         "connection": "KINDS OF KNIVES",
-        "level": 1
+        "level": 2
     },
     {
         "words": [
@@ -17,7 +17,7 @@
             "WHO"
         ],
         "connection": "FAMOUS ACRONYMS",
-        "level": 2
+        "level": 4
     },
     {
         "words": [
@@ -32,11 +32,11 @@
     {
         "words": [
             "GHOST",
-            "FIRST",
-            "BEGIN",
-            "ALMOST"
+            "BLOCK",
+            "SPAM",
+            "RESPOND"
         ],
-        "connection": "ALPHABETICALLY SORTED WORDS",
-        "level": 4
+        "connection": "THINGS YOU CAN DO TO A TEXTER",
+        "level": 1
     }
 ]
