@@ -1,0 +1,15 @@
+{"uptime": "00m48s", "message": "Incorrectly Guessed {'BITE', 'GOBBLE', 'PUCKER', 'SMACK'}", "timestamp": "2024-05-02T05:40:59.985660+00:00", "guessed": "[\"BITE\", \"GOBBLE\", \"PUCKER\", \"SMACK\"]", "one_away": true}
+{"uptime": "01m22s", "message": "Incorrectly Guessed {'SMACK', 'CHIRP', 'CLINK', 'TICK'}", "timestamp": "2024-05-02T05:41:33.585365+00:00", "guessed": "[\"SMACK\", \"CHIRP\", \"CLINK\", \"TICK\"]", "one_away": true}
+{"uptime": "02m12s", "message": "Incorrectly Guessed {'BITE', 'WRAP', 'PUCKER', 'SMACK'}", "timestamp": "2024-05-02T05:42:23.793243+00:00", "guessed": "[\"BITE\", \"WRAP\", \"PUCKER\", \"SMACK\"]", "one_away": true}
+{"uptime": "04m50s", "message": "Incorrectly Guessed {'BITE', 'TICK', 'PUCKER', 'SMACK'}", "timestamp": "2024-05-02T05:45:01.731095+00:00", "guessed": "[\"BITE\", \"TICK\", \"PUCKER\", \"SMACK\"]", "one_away": true}
+{"uptime": "05m08s", "message": "Incorrectly Guessed {'SMACK', 'CHIRP', 'PUCKER', 'BITE'}", "timestamp": "2024-05-02T05:45:19.734011+00:00", "guessed": "[\"SMACK\", \"CHIRP\", \"PUCKER\", \"BITE\"]", "one_away": true}
+{"uptime": "05m51s", "message": "Incorrectly Guessed {'PANTS', 'BAG', 'PURSE', 'WRAP'}", "timestamp": "2024-05-02T05:46:02.989785+00:00", "guessed": "[\"PANTS\", \"BAG\", \"PURSE\", \"WRAP\"]", "one_away": false}
+{"uptime": "07m56s", "message": "Incorrectly Guessed {'SMACK', 'SPACE', 'PUCKER', 'BITE'}", "timestamp": "2024-05-02T05:48:07.711439+00:00", "guessed": "[\"SMACK\", \"SPACE\", \"PUCKER\", \"BITE\"]", "one_away": true}
+{"uptime": "10m53s", "message": "Found THINGS YOU DO TO LIPS: ['SMACK', 'PUCKER', 'PURSE', 'BITE']", "timestamp": "2024-05-02T05:51:04.781238+00:00", "level": 2}
+{"uptime": "12m01s", "message": "Found ONOMATAPIA: ['CLINK', 'CHIRP', 'TICK', 'GOBBLE']", "timestamp": "2024-05-02T05:52:12.287879+00:00", "level": 3}
+{"uptime": "13m00s", "message": "Incorrectly Guessed {'CARD', 'BAG', 'PANTS', 'WRAP'}", "timestamp": "2024-05-02T05:53:11.272244+00:00", "guessed": "[\"CARD\", \"BAG\", \"PANTS\", \"WRAP\"]", "one_away": true}
+{"uptime": "13m21s", "message": "Incorrectly Guessed {'UP', 'BAG', 'PANTS', 'WRAP'}", "timestamp": "2024-05-02T05:53:32.604855+00:00", "guessed": "[\"UP\", \"BAG\", \"PANTS\", \"WRAP\"]", "one_away": false}
+{"uptime": "14m01s", "message": "Incorrectly Guessed {'BAG', 'BOX', 'PANTS', 'WRAP'}", "timestamp": "2024-05-02T05:54:13.142359+00:00", "guessed": "[\"BAG\", \"BOX\", \"PANTS\", \"WRAP\"]", "one_away": true}
+{"uptime": "17m42s", "message": "Found GIFT _____: ['BOX', 'WRAP', 'BAG', 'CARD']", "timestamp": "2024-05-02T05:57:53.396993+00:00", "level": 1}
+{"uptime": "26m06s", "message": "Found SQUARE _____: ['SPACE', 'DANCE', 'PANTS', 'UP']", "timestamp": "2024-05-02T06:06:17.689144+00:00", "level": 4}
+{"uptime": "26m06s", "message": "All Connections Found in 14 guesses!", "timestamp": "2024-05-02T06:06:17.689448+00:00", "complete": true}
