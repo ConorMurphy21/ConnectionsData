@@ -1,0 +1,10 @@
+{"uptime": "00m24s", "message": "Incorrectly Guessed {'SALMON', 'SEAWEED', 'TUNA', 'GOLDFISH'}", "timestamp": "2024-05-02T05:32:24.715900+00:00", "guessed": "[\"SALMON\", \"SEAWEED\", \"TUNA\", \"GOLDFISH\"]", "one_away": false}
+{"uptime": "01m01s", "message": "Incorrectly Guessed {'SALMON', 'BUGLE', 'TUNA', 'GOLDFISH'}", "timestamp": "2024-05-02T05:33:02.567505+00:00", "guessed": "[\"SALMON\", \"BUGLE\", \"TUNA\", \"GOLDFISH\"]", "one_away": false}
+{"uptime": "01m19s", "message": "Incorrectly Guessed {'FLUTE', 'GUITAR', 'BUGLE', 'TRUMPET'}", "timestamp": "2024-05-02T05:33:20.567063+00:00", "guessed": "[\"FLUTE\", \"GUITAR\", \"BUGLE\", \"TRUMPET\"]", "one_away": true}
+{"uptime": "01m32s", "message": "Incorrectly Guessed {'SALMON', 'TUNA', 'GOLDFISH', 'MANDOLIN'}", "timestamp": "2024-05-02T05:33:33.363482+00:00", "guessed": "[\"SALMON\", \"TUNA\", \"GOLDFISH\", \"MANDOLIN\"]", "one_away": false}
+{"uptime": "02m55s", "message": "Found MUSICAL INSTRUMENTS: ['GUITAR', 'FLUTE', 'TRUMPET', 'MANDOLIN']", "timestamp": "2024-05-02T05:34:56.145410+00:00", "level": 2}
+{"uptime": "04m00s", "message": "Incorrectly Guessed {'CAVITY', 'XRAY', 'CROWN', 'CHIP'}", "timestamp": "2024-05-02T05:36:01.393469+00:00", "guessed": "[\"CAVITY\", \"XRAY\", \"CROWN\", \"CHIP\"]", "one_away": true}
+{"uptime": "04m26s", "message": "Found SALTY SNACCS: ['CHIP', 'BUGLE', 'GOLDFISH', 'SEAWEED']", "timestamp": "2024-05-02T05:36:26.845520+00:00", "level": 4}
+{"uptime": "05m08s", "message": "Found DENTIST: ['CAVITY', 'CROWN', 'BRUSH', 'XRAY']", "timestamp": "2024-05-02T05:37:09.388872+00:00", "level": 1}
+{"uptime": "05m19s", "message": "Found SUSHI INGREDIENTS: ['RICE', 'TUNA', 'SALMON', 'AVOCADO']", "timestamp": "2024-05-02T05:37:19.684541+00:00", "level": 3}
+{"uptime": "05m19s", "message": "All Connections Found in 9 guesses!", "timestamp": "2024-05-02T05:37:19.684915+00:00", "complete": true}

@@ -1,0 +1,10 @@
+00m24s Incorrectly Guessed {'SALMON', 'SEAWEED', 'TUNA', 'GOLDFISH'}
+01m01s Incorrectly Guessed {'SALMON', 'BUGLE', 'TUNA', 'GOLDFISH'}
+01m19s Incorrectly Guessed {'FLUTE', 'GUITAR', 'BUGLE', 'TRUMPET'}
+01m32s Incorrectly Guessed {'SALMON', 'TUNA', 'GOLDFISH', 'MANDOLIN'}
+02m55s Found MUSICAL INSTRUMENTS: ['GUITAR', 'FLUTE', 'TRUMPET', 'MANDOLIN']
+04m00s Incorrectly Guessed {'CAVITY', 'XRAY', 'CROWN', 'CHIP'}
+04m26s Found SALTY SNACCS: ['CHIP', 'BUGLE', 'GOLDFISH', 'SEAWEED']
+05m08s Found DENTIST: ['CAVITY', 'CROWN', 'BRUSH', 'XRAY']
+05m19s Found SUSHI INGREDIENTS: ['RICE', 'TUNA', 'SALMON', 'AVOCADO']
+05m19s All Connections Found in 9 guesses!
