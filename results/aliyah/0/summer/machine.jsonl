@@ -1,0 +1,13 @@
+{"uptime": "01m18s", "message": "Incorrectly Guessed {'BOULDER', 'TWIST', 'STONE', 'DWAYNE'}", "timestamp": "2024-05-02T05:16:50.015315+00:00", "guessed": "[\"BOULDER\", \"TWIST\", \"STONE\", \"DWAYNE\"]", "one_away": true}
+{"uptime": "01m43s", "message": "Incorrectly Guessed {'FRACTURE', 'CUT', 'PADS', 'SPRAIN'}", "timestamp": "2024-05-02T05:17:15.197223+00:00", "guessed": "[\"FRACTURE\", \"CUT\", \"PADS\", \"SPRAIN\"]", "one_away": false}
+{"uptime": "02m56s", "message": "Found WORDS FOR ROCK: ['DWAYNE', 'PEBBLE', 'STONE', 'BOULDER']", "timestamp": "2024-05-02T05:18:27.536749+00:00", "level": 1}
+{"uptime": "03m08s", "message": "Found INJURIES: ['BRUISE', 'SPRAIN', 'FRACTURE', 'TWIST']", "timestamp": "2024-05-02T05:18:40.126481+00:00", "level": 2}
+{"uptime": "03m43s", "message": "Incorrectly Guessed {'TRAIL', 'CUT', 'PADS', 'ICE'}", "timestamp": "2024-05-02T05:19:14.498137+00:00", "guessed": "[\"TRAIL\", \"CUT\", \"PADS\", \"ICE\"]", "one_away": false}
+{"uptime": "04m12s", "message": "Incorrectly Guessed {'BALL', 'STICK', 'PADS', 'NET'}", "timestamp": "2024-05-02T05:19:44.343634+00:00", "guessed": "[\"BALL\", \"STICK\", \"PADS\", \"NET\"]", "one_away": true}
+{"uptime": "05m41s", "message": "Incorrectly Guessed {'BALL', 'NET', 'PADS', 'ICE'}", "timestamp": "2024-05-02T05:21:12.922664+00:00", "guessed": "[\"BALL\", \"NET\", \"PADS\", \"ICE\"]", "one_away": true}
+{"uptime": "06m32s", "message": "Incorrectly Guessed {'BALL', 'STICK', 'PADS', 'ICE'}", "timestamp": "2024-05-02T05:22:03.981557+00:00", "guessed": "[\"BALL\", \"STICK\", \"PADS\", \"ICE\"]", "one_away": true}
+{"uptime": "06m51s", "message": "Incorrectly Guessed {'BALL', 'STICK', 'NET', 'ICE'}", "timestamp": "2024-05-02T05:22:22.550704+00:00", "guessed": "[\"BALL\", \"STICK\", \"NET\", \"ICE\"]", "one_away": true}
+{"uptime": "07m27s", "message": "Incorrectly Guessed {'STICK', 'CUT', 'PADS', 'ICE'}", "timestamp": "2024-05-02T05:22:58.793199+00:00", "guessed": "[\"STICK\", \"CUT\", \"PADS\", \"ICE\"]", "one_away": true}
+{"uptime": "07m56s", "message": "Found USED WHILST PLAYING ICED HOCKEY: ['PADS', 'STICK', 'NET', 'ICE']", "timestamp": "2024-05-02T05:23:27.583380+00:00", "level": 3}
+{"uptime": "15m53s", "message": "Found PAPER X: ['PLANE', 'BALL', 'CUT', 'TRAIL']", "timestamp": "2024-05-02T05:31:25.253192+00:00", "level": 4}
+{"uptime": "15m53s", "message": "All Connections Found in 12 guesses!", "timestamp": "2024-05-02T05:31:25.253562+00:00", "complete": true}
