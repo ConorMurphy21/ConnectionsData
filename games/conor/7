@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "TINDER",
+            "BUMBLE",
+            "TINDER",
+            "GRINDR"
+        ],
+        "connection": "DATING APPS",
+        "level": 1
+    },
+    {
+        "words": [
+            "PAINT",
+            "NOTEPAD",
+            "EDGE",
+            "EXPLORER"
+        ],
+        "connection": "DEFAULT WINDOWS APPS",
+        "level": 2
+    },
+    {
+        "words": [
+            "BURN",
+            "LISTEN",
+            "SCRATCH",
+            "WIPE"
+        ],
+        "connection": "THINGS YOU CAN DO TO A CD",
+        "level": 3
+    },
+    {
+        "words": [
+            "PICTURE",
+            "SKETCH",
+            "BATH",
+            "MATCH"
+        ],
+        "connection": "THINGS YOU CAN DRAW",
+        "level": 4
+    }
+]
