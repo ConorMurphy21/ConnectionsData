@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "BALLOON",
+            "BUBBLE",
+            "PIMPLE",
+            "CORN"
+        ],
+        "connection": "THINGS YOU CAN POP",
+        "level": 1
+    },
+    {
+        "words": [
+            "PUTT",
+            "DRIVE",
+            "CHIP",
+            "PITCH"
+        ],
+        "connection": "GOLF SHOTS",
+        "level": 2
+    },
+    {
+        "words": [
+            "ATE",
+            "FOR",
+            "WON",
+            "TOO"
+        ],
+        "connection": "NUMBER HOMOPHONES",
+        "level": 3
+    },
+    {
+        "words": [
+            "BOOK",
+            "GRAM",
+            "CORD",
+            "INTEREST"
+        ],
+        "connection": "SECOND HALF OF SOCIAL MEDIA PLATFORMS",
+        "level": 4
+    }
+]
