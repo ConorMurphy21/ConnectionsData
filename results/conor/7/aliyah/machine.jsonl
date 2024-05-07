@@ -1,0 +1,5 @@
+{"uptime": "02m01s", "message": "Found DEFAULT WINDOWS APPS: ['PAINT', 'NOTEPAD', 'EDGE', 'EXPLORER']", "timestamp": "2024-05-07T04:47:12.648550+00:00", "level": 2}
+{"uptime": "04m10s", "message": "Found DATING APPS: ['TINDER', 'BUMBLE', 'HINGE', 'GRINDR']", "timestamp": "2024-05-07T04:49:21.591524+00:00", "level": 1}
+{"uptime": "04m33s", "message": "Incorrectly Guessed {'PICTURE', 'BURN', 'SKETCH', 'MATCH'}", "timestamp": "2024-05-07T04:49:45.171914+00:00", "guessed": "[\"PICTURE\", \"BURN\", \"SKETCH\", \"MATCH\"]", "one_away": true}
+{"uptime": "09m00s", "message": "Incorrectly Guessed {'PICTURE', 'SKETCH', 'SCRATCH', 'MATCH'}", "timestamp": "2024-05-07T04:54:11.775703+00:00", "guessed": "[\"PICTURE\", \"SKETCH\", \"SCRATCH\", \"MATCH\"]", "one_away": true}
+{"uptime": "10m58s", "message": "Incorrectly Guessed {'SCRATCH', 'WIPE', 'BURN', 'MATCH'}", "timestamp": "2024-05-07T04:56:09.571751+00:00", "guessed": "[\"SCRATCH\", \"WIPE\", \"BURN\", \"MATCH\"]", "one_away": true}

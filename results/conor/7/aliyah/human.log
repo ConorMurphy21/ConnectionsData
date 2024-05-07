@@ -1,0 +1,5 @@
+02m01s Found DEFAULT WINDOWS APPS: ['PAINT', 'NOTEPAD', 'EDGE', 'EXPLORER']
+04m10s Found DATING APPS: ['TINDER', 'BUMBLE', 'HINGE', 'GRINDR']
+04m33s Incorrectly Guessed {'PICTURE', 'BURN', 'SKETCH', 'MATCH'}
+09m00s Incorrectly Guessed {'PICTURE', 'SKETCH', 'SCRATCH', 'MATCH'}
+10m58s Incorrectly Guessed {'SCRATCH', 'WIPE', 'BURN', 'MATCH'}
