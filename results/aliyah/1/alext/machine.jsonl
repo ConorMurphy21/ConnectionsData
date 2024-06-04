@@ -1,0 +1,7 @@
+{"uptime": "01m23s", "message": "Found MUSICAL INSTRUMENTS: ['GUITAR', 'FLUTE', 'TRUMPET', 'MANDOLIN']", "timestamp": "2024-06-04T17:23:54.757989+00:00", "level": 2}
+{"uptime": "02m04s", "message": "Incorrectly Guessed {'SALMON', 'SEAWEED', 'AVOCADO', 'RICE'}", "timestamp": "2024-06-04T17:24:36.285655+00:00", "guessed": "[\"SALMON\", \"SEAWEED\", \"AVOCADO\", \"RICE\"]", "one_away": true}
+{"uptime": "03m19s", "message": "Incorrectly Guessed {'TUNA', 'SALMON', 'RICE', 'SEAWEED'}", "timestamp": "2024-06-04T17:25:51.105334+00:00", "guessed": "[\"TUNA\", \"SALMON\", \"RICE\", \"SEAWEED\"]", "one_away": true}
+{"uptime": "05m10s", "message": "Found SALTY SNACCS: ['CHIP', 'BUGLE', 'GOLDFISH', 'SEAWEED']", "timestamp": "2024-06-04T17:27:41.970374+00:00", "level": 4}
+{"uptime": "05m55s", "message": "Found SUSHI INGREDIENTS: ['RICE', 'TUNA', 'SALMON', 'AVOCADO']", "timestamp": "2024-06-04T17:28:26.798454+00:00", "level": 3}
+{"uptime": "06m09s", "message": "Found DENTIST: ['CAVITY', 'CROWN', 'BRUSH', 'XRAY']", "timestamp": "2024-06-04T17:28:41.161164+00:00", "level": 1}
+{"uptime": "06m09s", "message": "All Connections Found in 6 guesses!", "timestamp": "2024-06-04T17:28:41.161594+00:00", "complete": true}
