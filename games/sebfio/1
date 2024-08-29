@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "SQUARE",
+            "FIGURE EIGHT",
+            "HITCH",
+            "UNI"
+        ],
+        "connection": "KNOTS",
+        "level": 1
+    },
+    {
+        "words": [
+            "TWILL",
+            "SATIN",
+            "CANVAS",
+            "VELVET"
+        ],
+        "connection": "WEAVES",
+        "level": 2
+    },
+    {
+        "words": [
+            "CAMBIUM",
+            "SAPWOOD",
+            "HEARTWOOD",
+            "PITH"
+        ],
+        "connection": "WOOD TRUNK PARTS",
+        "level": 3
+    },
+    {
+        "words": [
+            "PALLET",
+            "LITTLEROOT",
+            "TWINLEAF",
+            "NEWBARK"
+        ],
+        "connection": "POKEMON 1ST TOWNS",
+        "level": 4
+    }
+]
