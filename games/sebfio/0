@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "MAINE",
+            "PERSIAN",
+            "JAVANESE",
+            "SOMALI"
+        ],
+        "connection": "CAT BREEDS",
+        "level": 1
+    },
+    {
+        "words": [
+            "GELATO",
+            "PIZZA",
+            "RISOTTO",
+            "PARMESAN"
+        ],
+        "connection": "ITALIAN FOODS",
+        "level": 2
+    },
+    {
+        "words": [
+            "CANADA",
+            "INDIA",
+            "IRELAND",
+            "BELGIUM"
+        ],
+        "connection": ">1 OFFICIAL LANGUAGE",
+        "level": 3
+    },
+    {
+        "words": [
+            "ITALIA",
+            "RUSSIA",
+            "FRENC",
+            "CEASA"
+        ],
+        "connection": "SALAD DRESSING MISSING LAST LETTER",
+        "level": 4
+    }
+]
