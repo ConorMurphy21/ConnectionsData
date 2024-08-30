@@ -1,0 +1,10 @@
+00m13s Incorrectly Guessed {'LETTUCE', 'TOMATO', 'BACON', 'MAYONNAISE'}
+00m25s Incorrectly Guessed {'BUTTER', 'TOMATO', 'BACON', 'LETTUCE'}
+00m42s Found BLT INGREDIENTS (HALAL TURKEY BACON THO): ['BACON', 'LETTUCE', 'TOMATO', 'BREAD']
+01m16s Incorrectly Guessed {'BUTTER', 'PICKLE', 'JUNIPER', 'MAYONNAISE'}
+01m32s Found THINGS ON TOP OF EACH OTHER: ['STACK', 'PILE', 'HEAP', 'TOWER']
+03m04s Incorrectly Guessed {'PICKLE', 'JUNIPER', 'FEBREZE', 'MAYONNAISE'}
+03m21s Incorrectly Guessed {'BUTTER', 'PICKLE', 'JUNIPER', 'DECK'}
+04m00s Incorrectly Guessed {'MAYONNAISE', 'CANNON', 'DECK', 'SOCCER'}
+04m07s Incorrectly Guessed {'MAYONNAISE', 'CANNON', 'FEBREZE', 'SOCCER'}
+04m18s Incorrectly Guessed {'PICKLE', 'JUNIPER', 'CANNON', 'FEBREZE'}
