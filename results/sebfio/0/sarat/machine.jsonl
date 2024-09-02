@@ -1,0 +1,8 @@
+{"uptime": "01m38s", "message": "Found ITALIAN FOODS: ['GELATO', 'PIZZA', 'RISOTTO', 'PARMESAN']", "timestamp": "2024-09-02T21:55:15.348495+00:00", "level": 2}
+{"uptime": "02m57s", "message": "Incorrectly Guessed {'RUSSIA', 'ITALIA', 'INDIA', 'CANADA'}", "timestamp": "2024-09-02T21:56:33.718985+00:00", "guessed": "[\"RUSSIA\", \"ITALIA\", \"INDIA\", \"CANADA\"]", "one_away": false}
+{"uptime": "03m27s", "message": "Incorrectly Guessed {'FRENC', 'JAVANESE', 'CEASA', 'SOMALI'}", "timestamp": "2024-09-02T21:57:04.134477+00:00", "guessed": "[\"FRENC\", \"JAVANESE\", \"CEASA\", \"SOMALI\"]", "one_away": false}
+{"uptime": "06m58s", "message": "Incorrectly Guessed {'JAVANESE', 'PERSIAN', 'RUSSIA', 'MAINE'}", "timestamp": "2024-09-02T22:00:35.498585+00:00", "guessed": "[\"JAVANESE\", \"PERSIAN\", \"RUSSIA\", \"MAINE\"]", "one_away": true}
+{"uptime": "07m38s", "message": "Found CAT BREEDS: ['MAINE', 'PERSIAN', 'JAVANESE', 'SOMALI']", "timestamp": "2024-09-02T22:01:15.002614+00:00", "level": 1}
+{"uptime": "09m14s", "message": "Found SALAD DRESSING MISSING LAST LETTER: ['ITALIA', 'RUSSIA', 'FRENC', 'CEASA']", "timestamp": "2024-09-02T22:02:50.738514+00:00", "level": 4}
+{"uptime": "09m24s", "message": "Found >1 OFFICIAL LANGUAGE: ['CANADA', 'INDIA', 'IRELAND', 'BELGIUM']", "timestamp": "2024-09-02T22:03:01.124228+00:00", "level": 3}
+{"uptime": "09m24s", "message": "All Connections Found in 7 guesses!", "timestamp": "2024-09-02T22:03:01.125515+00:00", "complete": true}
