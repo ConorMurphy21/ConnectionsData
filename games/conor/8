@@ -1,0 +1,42 @@
+[
+    {
+        "words": [
+            "TEST",
+            "TEST",
+            "TEST",
+            "TEST"
+        ],
+        "connection": "TEST",
+        "level": 1
+    },
+    {
+        "words": [
+            "T",
+            "Y",
+            "Y",
+            "Y"
+        ],
+        "connection": "Y",
+        "level": 2
+    },
+    {
+        "words": [
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+        ],
+        "connection": "Y",
+        "level": 3
+    },
+    {
+        "words": [
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+        ],
+        "connection": "Y",
+        "level": 4
+    }
+]
